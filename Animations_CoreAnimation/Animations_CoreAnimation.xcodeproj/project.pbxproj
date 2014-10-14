@@ -19,6 +19,10 @@
 		FA69E5E719ECF637009E05E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA69E5CF19ECF637009E05E4 /* UIKit.framework */; };
 		FA69E5EF19ECF637009E05E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA69E5ED19ECF637009E05E4 /* InfoPlist.strings */; };
 		FA69E5F119ECF637009E05E4 /* Animations_CoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69E5F019ECF637009E05E4 /* Animations_CoreAnimationTests.m */; };
+		FA69E5FC19ECFBBB009E05E4 /* pokeball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69E5FA19ECFBBB009E05E4 /* pokeball@2x.png */; };
+		FA69E5FD19ECFBBB009E05E4 /* pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69E5FB19ECFBBB009E05E4 /* pokeball.png */; };
+		FA69E60119ECFBE0009E05E4 /* TCCoreAnimatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69E5FF19ECFBE0009E05E4 /* TCCoreAnimatorViewController.m */; };
+		FA69E60219ECFBE0009E05E4 /* TCCoreAnimatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA69E60019ECFBE0009E05E4 /* TCCoreAnimatorViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,11 @@
 		FA69E5EC19ECF637009E05E4 /* Animations_CoreAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animations_CoreAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		FA69E5EE19ECF637009E05E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA69E5F019ECF637009E05E4 /* Animations_CoreAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animations_CoreAnimationTests.m; sourceTree = "<group>"; };
+		FA69E5FA19ECFBBB009E05E4 /* pokeball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokeball@2x.png"; sourceTree = "<group>"; };
+		FA69E5FB19ECFBBB009E05E4 /* pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokeball.png; sourceTree = "<group>"; };
+		FA69E5FE19ECFBE0009E05E4 /* TCCoreAnimatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCoreAnimatorViewController.h; sourceTree = "<group>"; };
+		FA69E5FF19ECFBE0009E05E4 /* TCCoreAnimatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCoreAnimatorViewController.m; sourceTree = "<group>"; };
+		FA69E60019ECFBE0009E05E4 /* TCCoreAnimatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCCoreAnimatorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,9 @@
 			children = (
 				FA69E5DA19ECF637009E05E4 /* TCAppDelegate.h */,
 				FA69E5DB19ECF637009E05E4 /* TCAppDelegate.m */,
+				FA69E5FE19ECFBE0009E05E4 /* TCCoreAnimatorViewController.h */,
+				FA69E5FF19ECFBE0009E05E4 /* TCCoreAnimatorViewController.m */,
+				FA69E60019ECFBE0009E05E4 /* TCCoreAnimatorViewController.xib */,
 				FA69E5DD19ECF637009E05E4 /* Images.xcassets */,
 				FA69E5D219ECF637009E05E4 /* Supporting Files */,
 			);
@@ -122,6 +134,8 @@
 				FA69E5D419ECF637009E05E4 /* InfoPlist.strings */,
 				FA69E5D719ECF637009E05E4 /* main.m */,
 				FA69E5D919ECF637009E05E4 /* Animations_CoreAnimation-Prefix.pch */,
+				FA69E5FA19ECFBBB009E05E4 /* pokeball@2x.png */,
+				FA69E5FB19ECFBBB009E05E4 /* pokeball.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,6 +206,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Marvin Labrador";
 				TargetAttributes = {
+					FA69E5C719ECF637009E05E4 = {
+						DevelopmentTeam = 59636WNZ2S;
+					};
 					FA69E5E219ECF637009E05E4 = {
 						TestTargetID = FA69E5C719ECF637009E05E4;
 					};
@@ -221,6 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA69E5D619ECF637009E05E4 /* InfoPlist.strings in Resources */,
+				FA69E60219ECFBE0009E05E4 /* TCCoreAnimatorViewController.xib in Resources */,
+				FA69E5FC19ECFBBB009E05E4 /* pokeball@2x.png in Resources */,
+				FA69E5FD19ECFBBB009E05E4 /* pokeball.png in Resources */,
 				FA69E5DE19ECF637009E05E4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA69E60119ECFBE0009E05E4 /* TCCoreAnimatorViewController.m in Sources */,
 				FA69E5D819ECF637009E05E4 /* main.m in Sources */,
 				FA69E5DC19ECF637009E05E4 /* TCAppDelegate.m in Sources */,
 			);
@@ -299,6 +320,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -317,6 +339,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -337,6 +360,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -348,6 +372,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -358,10 +383,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animations_CoreAnimation/Animations_CoreAnimation-Prefix.pch";
 				INFOPLIST_FILE = "Animations_CoreAnimation/Animations_CoreAnimation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +399,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Animations_CoreAnimation/Animations_CoreAnimation-Prefix.pch";
 				INFOPLIST_FILE = "Animations_CoreAnimation/Animations_CoreAnimation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +469,7 @@
 				FA69E5F619ECF637009E05E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA69E5F719ECF637009E05E4 /* Build configuration list for PBXNativeTarget "Animations_CoreAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +478,7 @@
 				FA69E5F919ECF637009E05E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

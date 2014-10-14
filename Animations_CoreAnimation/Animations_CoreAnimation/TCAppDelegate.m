@@ -7,6 +7,7 @@
 //
 
 #import "TCAppDelegate.h"
+#import "TCCoreAnimatorViewController.h"
 
 @implementation TCAppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    TCCoreAnimatorViewController *rvc = [[TCCoreAnimatorViewController alloc]init];
+    self.window.rootViewController = rvc;
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
