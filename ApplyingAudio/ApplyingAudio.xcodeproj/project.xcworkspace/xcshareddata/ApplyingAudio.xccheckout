@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3735E521-8AB7-4DAD-81AE-E860AA01B5EA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ApplyingAudio</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE6966A1-4C48-4D08-A4CE-D223E9126E4A</key>
+		<string>https://github.com/marvinlab/TC_iOS_Exercises.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ApplyingAudio/ApplyingAudio.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE6966A1-4C48-4D08-A4CE-D223E9126E4A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marvinlab/TC_iOS_Exercises.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE6966A1-4C48-4D08-A4CE-D223E9126E4A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE6966A1-4C48-4D08-A4CE-D223E9126E4A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TC_iOS_Exercises</string>
+		</dict>
+	</array>
+</dict>
+</plist>
