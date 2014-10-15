@@ -19,6 +19,20 @@
 		FA69E62B19ED11DD009E05E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA69E61319ED11DD009E05E4 /* UIKit.framework */; };
 		FA69E63319ED11DD009E05E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA69E63119ED11DD009E05E4 /* InfoPlist.strings */; };
 		FA69E63519ED11DD009E05E4 /* TextAndWeb_ApplyingCustomFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69E63419ED11DD009E05E4 /* TextAndWeb_ApplyingCustomFontTests.m */; };
+		FA8BCC6319EDFA950016E86C /* TCFonterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8BCC6119EDFA950016E86C /* TCFonterViewController.m */; };
+		FA8BCC6419EDFA950016E86C /* TCFonterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6219EDFA950016E86C /* TCFonterViewController.xib */; };
+		FA8BCC6C19EDFB9A0016E86C /* BillionStars_PersonalUse.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6519EDFAF70016E86C /* BillionStars_PersonalUse.ttf */; };
+		FA8BCC6D19EDFB9D0016E86C /* Invitation Script LIMITED FREE VERSION.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6619EDFAF70016E86C /* Invitation Script LIMITED FREE VERSION.ttf */; };
+		FA8BCC6E19EDFBA10016E86C /* BillionStars_PersonalUse.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6519EDFAF70016E86C /* BillionStars_PersonalUse.ttf */; };
+		FA8BCC6F19EDFBA30016E86C /* Invitation Script LIMITED FREE VERSION.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6619EDFAF70016E86C /* Invitation Script LIMITED FREE VERSION.ttf */; };
+		FA8BCC7019EDFBA80016E86C /* Oliver Twist.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6719EDFAF70016E86C /* Oliver Twist.otf */; };
+		FA8BCC7119EDFBA90016E86C /* Oliver Twist.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6719EDFAF70016E86C /* Oliver Twist.otf */; };
+		FA8BCC7219EDFBAB0016E86C /* Royal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6819EDFAF70016E86C /* Royal.ttf */; };
+		FA8BCC7319EDFBAC0016E86C /* Royal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6819EDFAF70016E86C /* Royal.ttf */; };
+		FA8BCC7419EDFBAF0016E86C /* Royal2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6919EDFAF70016E86C /* Royal2.ttf */; };
+		FA8BCC7519EDFBAF0016E86C /* Royal2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6919EDFAF70016E86C /* Royal2.ttf */; };
+		FA8BCC7619EDFBB10016E86C /* Something Strange.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6A19EDFAF70016E86C /* Something Strange.ttf */; };
+		FA8BCC7719EDFBB20016E86C /* Something Strange.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCC6A19EDFAF70016E86C /* Something Strange.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,15 @@
 		FA69E63019ED11DD009E05E4 /* TextAndWeb_ApplyingCustomFontTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextAndWeb_ApplyingCustomFontTests-Info.plist"; sourceTree = "<group>"; };
 		FA69E63219ED11DD009E05E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA69E63419ED11DD009E05E4 /* TextAndWeb_ApplyingCustomFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextAndWeb_ApplyingCustomFontTests.m; sourceTree = "<group>"; };
+		FA8BCC6019EDFA950016E86C /* TCFonterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFonterViewController.h; sourceTree = "<group>"; };
+		FA8BCC6119EDFA950016E86C /* TCFonterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFonterViewController.m; sourceTree = "<group>"; };
+		FA8BCC6219EDFA950016E86C /* TCFonterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCFonterViewController.xib; sourceTree = "<group>"; };
+		FA8BCC6519EDFAF70016E86C /* BillionStars_PersonalUse.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BillionStars_PersonalUse.ttf; sourceTree = "<group>"; };
+		FA8BCC6619EDFAF70016E86C /* Invitation Script LIMITED FREE VERSION.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Invitation Script LIMITED FREE VERSION.ttf"; sourceTree = "<group>"; };
+		FA8BCC6719EDFAF70016E86C /* Oliver Twist.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oliver Twist.otf"; sourceTree = "<group>"; };
+		FA8BCC6819EDFAF70016E86C /* Royal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Royal.ttf; sourceTree = "<group>"; };
+		FA8BCC6919EDFAF70016E86C /* Royal2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Royal2.ttf; sourceTree = "<group>"; };
+		FA8BCC6A19EDFAF70016E86C /* Something Strange.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Something Strange.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +104,7 @@
 				FA69E62E19ED11DD009E05E4 /* TextAndWeb_ApplyingCustomFontTests */,
 				FA69E60E19ED11DD009E05E4 /* Frameworks */,
 				FA69E60D19ED11DD009E05E4 /* Products */,
+				FA8BCC6B19EDFAFE0016E86C /* Font Styles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +133,9 @@
 			children = (
 				FA69E61E19ED11DD009E05E4 /* TCAppDelegate.h */,
 				FA69E61F19ED11DD009E05E4 /* TCAppDelegate.m */,
+				FA8BCC6019EDFA950016E86C /* TCFonterViewController.h */,
+				FA8BCC6119EDFA950016E86C /* TCFonterViewController.m */,
+				FA8BCC6219EDFA950016E86C /* TCFonterViewController.xib */,
 				FA69E62119ED11DD009E05E4 /* Images.xcassets */,
 				FA69E61619ED11DD009E05E4 /* Supporting Files */,
 			);
@@ -142,6 +169,19 @@
 				FA69E63119ED11DD009E05E4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA8BCC6B19EDFAFE0016E86C /* Font Styles */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BCC6519EDFAF70016E86C /* BillionStars_PersonalUse.ttf */,
+				FA8BCC6619EDFAF70016E86C /* Invitation Script LIMITED FREE VERSION.ttf */,
+				FA8BCC6719EDFAF70016E86C /* Oliver Twist.otf */,
+				FA8BCC6819EDFAF70016E86C /* Royal.ttf */,
+				FA8BCC6919EDFAF70016E86C /* Royal2.ttf */,
+				FA8BCC6A19EDFAF70016E86C /* Something Strange.ttf */,
+			);
+			name = "Font Styles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA69E61A19ED11DD009E05E4 /* InfoPlist.strings in Resources */,
+				FA8BCC6419EDFA950016E86C /* TCFonterViewController.xib in Resources */,
+				FA8BCC6C19EDFB9A0016E86C /* BillionStars_PersonalUse.ttf in Resources */,
+				FA8BCC7019EDFBA80016E86C /* Oliver Twist.otf in Resources */,
 				FA69E62219ED11DD009E05E4 /* Images.xcassets in Resources */,
+				FA8BCC7619EDFBB10016E86C /* Something Strange.ttf in Resources */,
+				FA8BCC6D19EDFB9D0016E86C /* Invitation Script LIMITED FREE VERSION.ttf in Resources */,
+				FA8BCC7219EDFBAB0016E86C /* Royal.ttf in Resources */,
+				FA8BCC7419EDFBAF0016E86C /* Royal2.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +276,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8BCC6E19EDFBA10016E86C /* BillionStars_PersonalUse.ttf in Resources */,
 				FA69E63319ED11DD009E05E4 /* InfoPlist.strings in Resources */,
+				FA8BCC6F19EDFBA30016E86C /* Invitation Script LIMITED FREE VERSION.ttf in Resources */,
+				FA8BCC7519EDFBAF0016E86C /* Royal2.ttf in Resources */,
+				FA8BCC7119EDFBA90016E86C /* Oliver Twist.otf in Resources */,
+				FA8BCC7719EDFBB20016E86C /* Something Strange.ttf in Resources */,
+				FA8BCC7319EDFBAC0016E86C /* Royal.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA69E61C19ED11DD009E05E4 /* main.m in Sources */,
+				FA8BCC6319EDFA950016E86C /* TCFonterViewController.m in Sources */,
 				FA69E62019ED11DD009E05E4 /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +353,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CYSCORPIONS INC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -317,6 +372,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -337,6 +393,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CYSCORPIONS INC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -348,6 +405,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -358,10 +416,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CYSCORPIONS INC";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextAndWeb_ApplyingCustomFont/TextAndWeb_ApplyingCustomFont-Prefix.pch";
 				INFOPLIST_FILE = "TextAndWeb_ApplyingCustomFont/TextAndWeb_ApplyingCustomFont-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +431,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CYSCORPIONS INC";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextAndWeb_ApplyingCustomFont/TextAndWeb_ApplyingCustomFont-Prefix.pch";
 				INFOPLIST_FILE = "TextAndWeb_ApplyingCustomFont/TextAndWeb_ApplyingCustomFont-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +500,7 @@
 				FA69E63A19ED11DD009E05E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA69E63B19ED11DD009E05E4 /* Build configuration list for PBXNativeTarget "TextAndWeb_ApplyingCustomFontTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +509,7 @@
 				FA69E63D19ED11DD009E05E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

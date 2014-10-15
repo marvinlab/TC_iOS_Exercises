@@ -1,13 +1,13 @@
 //
 //  TCAppDelegate.m
-//  TextAndWeb_ApplyingCustomFont
+//  UITable_ApplyingOOP
 //
 //  Created by Marvin Labrador on 10/14/14.
 //  Copyright (c) 2014 Marvin Labrador. All rights reserved.
 //
 
 #import "TCAppDelegate.h"
-#import "TCFonterViewController.h"
+#import "TCTableViewController.h"
 
 @implementation TCAppDelegate
 
@@ -16,7 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    TCFonterViewController *rvc = [[TCFonterViewController alloc]init];
+    TCTableViewController *rvc = [[TCTableViewController alloc]init];
     
     self.window.rootViewController = rvc;
     
