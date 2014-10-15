@@ -20,7 +20,13 @@
 		FA8BCCA819EE0AC20016E86C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCA619EE0AC20016E86C /* InfoPlist.strings */; };
 		FA8BCCAA19EE0AC20016E86C /* ApplyingAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8BCCA919EE0AC20016E86C /* ApplyingAudioTests.m */; };
 		FA8BCCB419EE0AFD0016E86C /* dance.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCB319EE0AFD0016E86C /* dance.gif */; };
-		FA8BCCB619EE0B370016E86C /* Classic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCB519EE0B370016E86C /* Classic.mp3 */; };
+		FA8BCCBC19EE0C920016E86C /* TCAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8BCCBA19EE0C920016E86C /* TCAudioViewController.m */; };
+		FA8BCCBD19EE0C920016E86C /* TCAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCBB19EE0C920016E86C /* TCAudioViewController.xib */; };
+		FA8BCCC419EE13160016E86C /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8BCCC119EE13160016E86C /* FLAnimatedImage.m */; };
+		FA8BCCC519EE13160016E86C /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8BCCC319EE13160016E86C /* FLAnimatedImageView.m */; };
+		FA8BCCC719EE1D8F0016E86C /* Classic.caf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCC619EE1D820016E86C /* Classic.caf */; };
+		FA8BCCC819EE1DF10016E86C /* squish.caf in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCB819EE0BF20016E86C /* squish.caf */; };
+		FA8BCCCA19EE21650016E86C /* Classic.aifc in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCC919EE21650016E86C /* Classic.aifc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +57,16 @@
 		FA8BCCA719EE0AC20016E86C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA8BCCA919EE0AC20016E86C /* ApplyingAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplyingAudioTests.m; sourceTree = "<group>"; };
 		FA8BCCB319EE0AFD0016E86C /* dance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dance.gif; sourceTree = "<group>"; };
-		FA8BCCB519EE0B370016E86C /* Classic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Classic.mp3; sourceTree = "<group>"; };
 		FA8BCCB819EE0BF20016E86C /* squish.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = squish.caf; sourceTree = "<group>"; };
+		FA8BCCB919EE0C920016E86C /* TCAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAudioViewController.h; sourceTree = "<group>"; };
+		FA8BCCBA19EE0C920016E86C /* TCAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAudioViewController.m; sourceTree = "<group>"; };
+		FA8BCCBB19EE0C920016E86C /* TCAudioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCAudioViewController.xib; sourceTree = "<group>"; };
+		FA8BCCC019EE13160016E86C /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		FA8BCCC119EE13160016E86C /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		FA8BCCC219EE13160016E86C /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		FA8BCCC319EE13160016E86C /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		FA8BCCC619EE1D820016E86C /* Classic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Classic.caf; sourceTree = "<group>"; };
+		FA8BCCC919EE21650016E86C /* Classic.aifc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Classic.aifc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,7 @@
 		FA8BCC7819EE0AC20016E86C = {
 			isa = PBXGroup;
 			children = (
+				FA8BCCBF19EE12E50016E86C /* Library */,
 				FA8BCC8A19EE0AC20016E86C /* ApplyingAudio */,
 				FA8BCCA319EE0AC20016E86C /* ApplyingAudioTests */,
 				FA8BCC8319EE0AC20016E86C /* Frameworks */,
@@ -115,6 +130,9 @@
 			children = (
 				FA8BCC9319EE0AC20016E86C /* TCAppDelegate.h */,
 				FA8BCC9419EE0AC20016E86C /* TCAppDelegate.m */,
+				FA8BCCB919EE0C920016E86C /* TCAudioViewController.h */,
+				FA8BCCBA19EE0C920016E86C /* TCAudioViewController.m */,
+				FA8BCCBB19EE0C920016E86C /* TCAudioViewController.xib */,
 				FA8BCC9619EE0AC20016E86C /* Images.xcassets */,
 				FA8BCC8B19EE0AC20016E86C /* Supporting Files */,
 			);
@@ -155,9 +173,21 @@
 			children = (
 				FA8BCCB819EE0BF20016E86C /* squish.caf */,
 				FA8BCCB319EE0AFD0016E86C /* dance.gif */,
-				FA8BCCB519EE0B370016E86C /* Classic.mp3 */,
+				FA8BCCC619EE1D820016E86C /* Classic.caf */,
+				FA8BCCC919EE21650016E86C /* Classic.aifc */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		FA8BCCBF19EE12E50016E86C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BCCC019EE13160016E86C /* FLAnimatedImage.h */,
+				FA8BCCC119EE13160016E86C /* FLAnimatedImage.m */,
+				FA8BCCC219EE13160016E86C /* FLAnimatedImageView.h */,
+				FA8BCCC319EE13160016E86C /* FLAnimatedImageView.m */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +268,11 @@
 			files = (
 				FA8BCC8F19EE0AC20016E86C /* InfoPlist.strings in Resources */,
 				FA8BCCB419EE0AFD0016E86C /* dance.gif in Resources */,
+				FA8BCCBD19EE0C920016E86C /* TCAudioViewController.xib in Resources */,
+				FA8BCCC819EE1DF10016E86C /* squish.caf in Resources */,
+				FA8BCCC719EE1D8F0016E86C /* Classic.caf in Resources */,
 				FA8BCC9719EE0AC20016E86C /* Images.xcassets in Resources */,
-				FA8BCCB619EE0B370016E86C /* Classic.mp3 in Resources */,
+				FA8BCCCA19EE21650016E86C /* Classic.aifc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8BCCC419EE13160016E86C /* FLAnimatedImage.m in Sources */,
+				FA8BCCBC19EE0C920016E86C /* TCAudioViewController.m in Sources */,
+				FA8BCCC519EE13160016E86C /* FLAnimatedImageView.m in Sources */,
 				FA8BCC9119EE0AC20016E86C /* main.m in Sources */,
 				FA8BCC9519EE0AC20016E86C /* TCAppDelegate.m in Sources */,
 			);
@@ -317,6 +353,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CYSCORPIONS INC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -335,6 +372,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -355,6 +393,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CYSCORPIONS INC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -366,6 +405,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

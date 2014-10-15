@@ -1,0 +1,14 @@
+//
+//  TCAudioViewController.h
+//  ApplyingAudio
+//
+//  Created by Marvin Labrador on 10/15/14.
+//  Copyright (c) 2014 Marvin Labrador. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+
+@interface TCAudioViewController : UIViewController
+
+@end
