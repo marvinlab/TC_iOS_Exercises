@@ -19,6 +19,20 @@
 		FA69E66619ED1A5E009E05E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA69E64E19ED1A5E009E05E4 /* UIKit.framework */; };
 		FA69E66E19ED1A5E009E05E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA69E66C19ED1A5E009E05E4 /* InfoPlist.strings */; };
 		FA69E67019ED1A5E009E05E4 /* UITable_ApplyingOOPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69E66F19ED1A5E009E05E4 /* UITable_ApplyingOOPTests.m */; };
+		FA8BCCCE19EE3F510016E86C /* TCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8BCCCC19EE3F510016E86C /* TCTableViewController.m */; };
+		FA8BCCCF19EE3F510016E86C /* TCTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCCD19EE3F510016E86C /* TCTableViewController.xib */; };
+		FA8BCCDB19EE45DD0016E86C /* Aquaman.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD019EE45DD0016E86C /* Aquaman.png */; };
+		FA8BCCDC19EE45DD0016E86C /* Batman.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD119EE45DD0016E86C /* Batman.png */; };
+		FA8BCCDD19EE45DD0016E86C /* Captain America.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD219EE45DD0016E86C /* Captain America.png */; };
+		FA8BCCDE19EE45DD0016E86C /* The Flash.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD319EE45DD0016E86C /* The Flash.png */; };
+		FA8BCCDF19EE45DD0016E86C /* Green Lantern.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD419EE45DD0016E86C /* Green Lantern.png */; };
+		FA8BCCE019EE45DD0016E86C /* Ironman.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD519EE45DD0016E86C /* Ironman.png */; };
+		FA8BCCE119EE45DD0016E86C /* Robin.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD619EE45DD0016E86C /* Robin.png */; };
+		FA8BCCE219EE45DD0016E86C /* Spiderman.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD719EE45DD0016E86C /* Spiderman.png */; };
+		FA8BCCE319EE45DD0016E86C /* Superman.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD819EE45DD0016E86C /* Superman.png */; };
+		FA8BCCE419EE45DD0016E86C /* Thor.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCD919EE45DD0016E86C /* Thor.png */; };
+		FA8BCCE519EE45DD0016E86C /* Wolverine.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCCDA19EE45DD0016E86C /* Wolverine.png */; };
+		FA8BCCEA19EE52930016E86C /* TCSuperHeroes.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8BCCE919EE52930016E86C /* TCSuperHeroes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,22 @@
 		FA69E66B19ED1A5E009E05E4 /* UITable_ApplyingOOPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITable_ApplyingOOPTests-Info.plist"; sourceTree = "<group>"; };
 		FA69E66D19ED1A5E009E05E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA69E66F19ED1A5E009E05E4 /* UITable_ApplyingOOPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITable_ApplyingOOPTests.m; sourceTree = "<group>"; };
+		FA8BCCCB19EE3F510016E86C /* TCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTableViewController.h; sourceTree = "<group>"; };
+		FA8BCCCC19EE3F510016E86C /* TCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTableViewController.m; sourceTree = "<group>"; };
+		FA8BCCCD19EE3F510016E86C /* TCTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCTableViewController.xib; sourceTree = "<group>"; };
+		FA8BCCD019EE45DD0016E86C /* Aquaman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aquaman.png; sourceTree = "<group>"; };
+		FA8BCCD119EE45DD0016E86C /* Batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Batman.png; sourceTree = "<group>"; };
+		FA8BCCD219EE45DD0016E86C /* Captain America.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Captain America.png"; sourceTree = "<group>"; };
+		FA8BCCD319EE45DD0016E86C /* The Flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Flash.png"; sourceTree = "<group>"; };
+		FA8BCCD419EE45DD0016E86C /* Green Lantern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Lantern.png"; sourceTree = "<group>"; };
+		FA8BCCD519EE45DD0016E86C /* Ironman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ironman.png; sourceTree = "<group>"; };
+		FA8BCCD619EE45DD0016E86C /* Robin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Robin.png; sourceTree = "<group>"; };
+		FA8BCCD719EE45DD0016E86C /* Spiderman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spiderman.png; sourceTree = "<group>"; };
+		FA8BCCD819EE45DD0016E86C /* Superman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Superman.png; sourceTree = "<group>"; };
+		FA8BCCD919EE45DD0016E86C /* Thor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thor.png; sourceTree = "<group>"; };
+		FA8BCCDA19EE45DD0016E86C /* Wolverine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wolverine.png; sourceTree = "<group>"; };
+		FA8BCCE819EE52930016E86C /* TCSuperHeroes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSuperHeroes.h; sourceTree = "<group>"; };
+		FA8BCCE919EE52930016E86C /* TCSuperHeroes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSuperHeroes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +111,7 @@
 				FA69E66919ED1A5E009E05E4 /* UITable_ApplyingOOPTests */,
 				FA69E64919ED1A5E009E05E4 /* Frameworks */,
 				FA69E64819ED1A5E009E05E4 /* Products */,
+				FA8BCCE719EE45F70016E86C /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +140,11 @@
 			children = (
 				FA69E65919ED1A5E009E05E4 /* TCAppDelegate.h */,
 				FA69E65A19ED1A5E009E05E4 /* TCAppDelegate.m */,
+				FA8BCCCB19EE3F510016E86C /* TCTableViewController.h */,
+				FA8BCCCC19EE3F510016E86C /* TCTableViewController.m */,
+				FA8BCCCD19EE3F510016E86C /* TCTableViewController.xib */,
+				FA8BCCE819EE52930016E86C /* TCSuperHeroes.h */,
+				FA8BCCE919EE52930016E86C /* TCSuperHeroes.m */,
 				FA69E65C19ED1A5E009E05E4 /* Images.xcassets */,
 				FA69E65119ED1A5E009E05E4 /* Supporting Files */,
 			);
@@ -142,6 +178,24 @@
 				FA69E66C19ED1A5E009E05E4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA8BCCE719EE45F70016E86C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BCCD019EE45DD0016E86C /* Aquaman.png */,
+				FA8BCCD119EE45DD0016E86C /* Batman.png */,
+				FA8BCCD219EE45DD0016E86C /* Captain America.png */,
+				FA8BCCD319EE45DD0016E86C /* The Flash.png */,
+				FA8BCCD419EE45DD0016E86C /* Green Lantern.png */,
+				FA8BCCD519EE45DD0016E86C /* Ironman.png */,
+				FA8BCCD619EE45DD0016E86C /* Robin.png */,
+				FA8BCCD719EE45DD0016E86C /* Spiderman.png */,
+				FA8BCCD819EE45DD0016E86C /* Superman.png */,
+				FA8BCCD919EE45DD0016E86C /* Thor.png */,
+				FA8BCCDA19EE45DD0016E86C /* Wolverine.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +274,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8BCCDF19EE45DD0016E86C /* Green Lantern.png in Resources */,
+				FA8BCCDE19EE45DD0016E86C /* The Flash.png in Resources */,
+				FA8BCCE319EE45DD0016E86C /* Superman.png in Resources */,
+				FA8BCCE119EE45DD0016E86C /* Robin.png in Resources */,
 				FA69E65519ED1A5E009E05E4 /* InfoPlist.strings in Resources */,
 				FA69E65D19ED1A5E009E05E4 /* Images.xcassets in Resources */,
+				FA8BCCDB19EE45DD0016E86C /* Aquaman.png in Resources */,
+				FA8BCCDD19EE45DD0016E86C /* Captain America.png in Resources */,
+				FA8BCCE419EE45DD0016E86C /* Thor.png in Resources */,
+				FA8BCCE219EE45DD0016E86C /* Spiderman.png in Resources */,
+				FA8BCCE019EE45DD0016E86C /* Ironman.png in Resources */,
+				FA8BCCDC19EE45DD0016E86C /* Batman.png in Resources */,
+				FA8BCCCF19EE3F510016E86C /* TCTableViewController.xib in Resources */,
+				FA8BCCE519EE45DD0016E86C /* Wolverine.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA69E65719ED1A5E009E05E4 /* main.m in Sources */,
+				FA8BCCCE19EE3F510016E86C /* TCTableViewController.m in Sources */,
+				FA8BCCEA19EE52930016E86C /* TCSuperHeroes.m in Sources */,
 				FA69E65B19ED1A5E009E05E4 /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +367,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CYSCORPIONS INC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -317,6 +386,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -337,6 +407,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CYSCORPIONS INC";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -348,6 +419,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "B97FF216-6AA2-4B9D-95CB-5035D49E9C0F";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -438,6 +510,7 @@
 				FA69E67519ED1A5E009E05E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA69E67619ED1A5E009E05E4 /* Build configuration list for PBXNativeTarget "UITable_ApplyingOOPTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +519,7 @@
 				FA69E67819ED1A5E009E05E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
