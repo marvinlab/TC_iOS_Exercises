@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3F938519EF4D18002A7507 /* TCMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3F938319EF4D18002A7507 /* TCMainTableViewController.m */; };
+		FA3F938619EF4D18002A7507 /* TCMainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3F938419EF4D18002A7507 /* TCMainTableViewController.xib */; };
 		FA8BCCF819EE63FA0016E86C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BCCF719EE63FA0016E86C /* Foundation.framework */; };
 		FA8BCCFA19EE63FA0016E86C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BCCF919EE63FA0016E86C /* CoreGraphics.framework */; };
 		FA8BCCFC19EE63FA0016E86C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BCCFB19EE63FA0016E86C /* UIKit.framework */; };
@@ -19,6 +21,7 @@
 		FA8BCD1319EE63FA0016E86C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8BCCFB19EE63FA0016E86C /* UIKit.framework */; };
 		FA8BCD1B19EE63FA0016E86C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCD1919EE63FA0016E86C /* InfoPlist.strings */; };
 		FA8BCD1D19EE63FA0016E86C /* MVCPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8BCD1C19EE63FA0016E86C /* MVCPatternTests.m */; };
+		FA8BCD2719EE66FA0016E86C /* Exercise-Tool.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCD2619EE66FA0016E86C /* Exercise-Tool.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA3F938219EF4D18002A7507 /* TCMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMainTableViewController.h; sourceTree = "<group>"; };
+		FA3F938319EF4D18002A7507 /* TCMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMainTableViewController.m; sourceTree = "<group>"; };
+		FA3F938419EF4D18002A7507 /* TCMainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCMainTableViewController.xib; sourceTree = "<group>"; };
 		FA8BCCF419EE63FA0016E86C /* MVCPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8BCCF719EE63FA0016E86C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA8BCCF919EE63FA0016E86C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,7 @@
 		FA8BCD1819EE63FA0016E86C /* MVCPatternTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVCPatternTests-Info.plist"; sourceTree = "<group>"; };
 		FA8BCD1A19EE63FA0016E86C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA8BCD1C19EE63FA0016E86C /* MVCPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCPatternTests.m; sourceTree = "<group>"; };
+		FA8BCD2619EE66FA0016E86C /* Exercise-Tool.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Exercise-Tool.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +116,9 @@
 			children = (
 				FA8BCD0619EE63FA0016E86C /* TCAppDelegate.h */,
 				FA8BCD0719EE63FA0016E86C /* TCAppDelegate.m */,
+				FA3F938219EF4D18002A7507 /* TCMainTableViewController.h */,
+				FA3F938319EF4D18002A7507 /* TCMainTableViewController.m */,
+				FA3F938419EF4D18002A7507 /* TCMainTableViewController.xib */,
 				FA8BCD0919EE63FA0016E86C /* Images.xcassets */,
 				FA8BCCFE19EE63FA0016E86C /* Supporting Files */,
 			);
@@ -119,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				FA8BCCFF19EE63FA0016E86C /* MVCPattern-Info.plist */,
+				FA8BCD2619EE66FA0016E86C /* Exercise-Tool.plist */,
 				FA8BCD0019EE63FA0016E86C /* InfoPlist.strings */,
 				FA8BCD0319EE63FA0016E86C /* main.m */,
 				FA8BCD0519EE63FA0016E86C /* MVCPattern-Prefix.pch */,
@@ -192,6 +203,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Marvin Labrador";
 				TargetAttributes = {
+					FA8BCCF319EE63FA0016E86C = {
+						DevelopmentTeam = 59636WNZ2S;
+					};
 					FA8BCD0E19EE63FA0016E86C = {
 						TestTargetID = FA8BCCF319EE63FA0016E86C;
 					};
@@ -220,6 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8BCD2719EE66FA0016E86C /* Exercise-Tool.plist in Resources */,
+				FA3F938619EF4D18002A7507 /* TCMainTableViewController.xib in Resources */,
 				FA8BCD0219EE63FA0016E86C /* InfoPlist.strings in Resources */,
 				FA8BCD0A19EE63FA0016E86C /* Images.xcassets in Resources */,
 			);
@@ -241,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8BCD0419EE63FA0016E86C /* main.m in Sources */,
+				FA3F938519EF4D18002A7507 /* TCMainTableViewController.m in Sources */,
 				FA8BCD0819EE63FA0016E86C /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +316,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -317,6 +335,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f7ee749e-026f-4b28-b135-baa14000df48";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -337,6 +356,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -348,6 +368,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "f7ee749e-026f-4b28-b135-baa14000df48";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -358,10 +379,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MVCPattern/MVCPattern-Prefix.pch";
 				INFOPLIST_FILE = "MVCPattern/MVCPattern-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +397,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MVCPattern/MVCPattern-Prefix.pch";
 				INFOPLIST_FILE = "MVCPattern/MVCPattern-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -383,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MVCPattern.app/MVCPattern";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -396,6 +428,7 @@
 				);
 				INFOPLIST_FILE = "MVCPatternTests/MVCPatternTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7ee749e-026f-4b28-b135-baa14000df48";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -405,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MVCPattern.app/MVCPattern";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -414,6 +448,7 @@
 				GCC_PREFIX_HEADER = "MVCPattern/MVCPattern-Prefix.pch";
 				INFOPLIST_FILE = "MVCPatternTests/MVCPatternTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7ee749e-026f-4b28-b135-baa14000df48";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -438,6 +473,7 @@
 				FA8BCD2219EE63FA0016E86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA8BCD2319EE63FA0016E86C /* Build configuration list for PBXNativeTarget "MVCPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +482,7 @@
 				FA8BCD2519EE63FA0016E86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>item0</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>A</string>
+		<key>itemImage</key>
+		<string>lettera</string>
+		<key>itemDescription</key>
+		<string>first letter in the english alphabet</string>
+		<key>itemCategory</key>
+		<string>Letter</string>
+	</dict>
+	<key>item1</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>B</string>
+		<key>itemImage</key>
+		<string>letterb</string>
+		<key>itemDescription</key>
+		<string>second letter in the english alphabet</string>
+		<key>itemCategory</key>
+		<string>Letter</string>
+	</dict>
+	<key>item2</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>C</string>
+		<key>itemImage</key>
+		<string>letterc</string>
+		<key>itemDescription</key>
+		<string>third letter in the english alphabet</string>
+		<key>itemCategory</key>
+		<string>Letter</string>
+	</dict>
+	<key>item3</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Red</string>
+		<key>itemImage</key>
+		<string>red</string>
+		<key>itemDescription</key>
+		<string>color of apple</string>
+		<key>itemCategory</key>
+		<string>Color</string>
+	</dict>
+	<key>item4</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Blue</string>
+		<key>itemImage</key>
+		<string>blue</string>
+		<key>itemDescription</key>
+		<string>color of sky</string>
+		<key>itemCategory</key>
+		<string>Color</string>
+	</dict>
+	<key>item5</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Green</string>
+		<key>itemImage</key>
+		<string>green</string>
+		<key>itemDescription</key>
+		<string>color of leaves</string>
+		<key>itemCategory</key>
+		<string>Color</string>
+	</dict>
+	<key>item6</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Egg Benedict</string>
+		<key>itemImage</key>
+		<string>egg benedict</string>
+		<key>itemDescription</key>
+		<string>American breakfast dish that consists of two halves of an English muffin, topped with ham or bacon, poached eggs, and Hollandaise sauce.</string>
+		<key>itemCategory</key>
+		<string>Food</string>
+	</dict>
+	<key>item7</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Mushroom Risotto</string>
+		<key>itemImage</key>
+		<string>mushroom risotto</string>
+		<key>itemDescription</key>
+		<string>a typical Italian dish based on rice.</string>
+		<key>itemCategory</key>
+		<string>Food</string>
+	</dict>
+	<key>item8</key>
+	<dict>
+		<key>itemTitle</key>
+		<string>Hamburger</string>
+		<key>itemImage</key>
+		<string>hamburger</string>
+		<key>itemDescription</key>
+		<string>a type of sandwich</string>
+		<key>itemCategory</key>
+		<string>Food</string>
+	</dict>
+</dict>
+</plist>
