@@ -8,12 +8,32 @@
 
 #import "TCAppDelegate.h"
 
+#import "TCUIElementsMainController.h"
+
+#import "TCButtonViewController.h"
+#import "TCControlViewController.h"
+#import "TCTextViewController.h"
+#import "TCPickersViewController.h"
+#import "TCImageViewController.h"
+
+#import "TCSegmentedViewController.h"
+
 @implementation TCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    TCSegmentedViewController *cur = [[TCSegmentedViewController alloc]init];
+    
+   // TCUIElementsMainController *elementsList = [[TCUIElementsMainController alloc]init];
+   // UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:elementsList];
+    
+    
+    self.window.rootViewController = cur;
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
