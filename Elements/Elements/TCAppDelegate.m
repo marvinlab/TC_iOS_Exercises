@@ -8,6 +8,10 @@
 
 #import "TCAppDelegate.h"
 #import "TCTableViewController.h"
+#import "TCWebViewController.h"
+#import "TCGameViewController.h"
+#import "TCPauseScreenViewController.h"
+
 
 @implementation TCAppDelegate
 

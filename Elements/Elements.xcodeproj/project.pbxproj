@@ -53,6 +53,8 @@
 		FA7917E719F119B3003E2917 /* flame.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7917C619F119B3003E2917 /* flame.png */; };
 		FA7917E819F119B3003E2917 /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7917C719F119B3003E2917 /* iphone.jpg */; };
 		FA7917E919F119B3003E2917 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7917C819F119B3003E2917 /* hello.png */; };
+		FA79183F19F12521003E2917 /* TCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79183D19F12521003E2917 /* TCWebViewController.m */; };
+		FA79184019F12521003E2917 /* TCWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA79183E19F12521003E2917 /* TCWebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +135,9 @@
 		FA7917C619F119B3003E2917 /* flame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flame.png; sourceTree = "<group>"; };
 		FA7917C719F119B3003E2917 /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.jpg; sourceTree = "<group>"; };
 		FA7917C819F119B3003E2917 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
+		FA79183C19F12521003E2917 /* TCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCWebViewController.h; sourceTree = "<group>"; };
+		FA79183D19F12521003E2917 /* TCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCWebViewController.m; sourceTree = "<group>"; };
+		FA79183E19F12521003E2917 /* TCWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCWebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +247,9 @@
 				FA7917C319F119B3003E2917 /* TCGameViewController.h */,
 				FA7917C419F119B3003E2917 /* TCGameViewController.m */,
 				FA7917C519F119B3003E2917 /* TCGameViewController.xib */,
+				FA79183C19F12521003E2917 /* TCWebViewController.h */,
+				FA79183D19F12521003E2917 /* TCWebViewController.m */,
+				FA79183E19F12521003E2917 /* TCWebViewController.xib */,
 				FA7917C619F119B3003E2917 /* flame.png */,
 				FA7917C719F119B3003E2917 /* iphone.jpg */,
 				FA7917C819F119B3003E2917 /* hello.png */,
@@ -368,6 +376,7 @@
 				FA7917DD19F119B3003E2917 /* BNRQuizViewController.xib in Resources */,
 				FA7917E719F119B3003E2917 /* flame.png in Resources */,
 				FA7917E619F119B3003E2917 /* TCGameViewController.xib in Resources */,
+				FA79184019F12521003E2917 /* TCWebViewController.xib in Resources */,
 				FA7917E019F119B3003E2917 /* TCActionSheetViewController.xib in Resources */,
 				FA7917E419F119B3003E2917 /* TCPauseScreenViewController.xib in Resources */,
 				FA7917CE19F119B3003E2917 /* TCTextViewController.xib in Resources */,
@@ -405,6 +414,7 @@
 				FA79179719F11785003E2917 /* TCTableViewController.m in Sources */,
 				FA7917D519F119B3003E2917 /* TCToolbarViewController.m in Sources */,
 				FA7917D319F119B3003E2917 /* TCSegmentedViewController.m in Sources */,
+				FA79183F19F12521003E2917 /* TCWebViewController.m in Sources */,
 				FA7917CB19F119B3003E2917 /* TCControlViewController.m in Sources */,
 				FA79177719F11752003E2917 /* TCAppDelegate.m in Sources */,
 				FA7917D719F119B3003E2917 /* TCTabBarController.m in Sources */,
@@ -608,6 +618,7 @@
 				FA79179119F11752003E2917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA79179219F11752003E2917 /* Build configuration list for PBXNativeTarget "ElementsTests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +627,7 @@
 				FA79179419F11752003E2917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

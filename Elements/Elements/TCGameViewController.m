@@ -29,8 +29,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    TCPauseScreenViewController *pauseGame = [[TCPauseScreenViewController alloc] init];
-    [pauseGame setDelegate:self];
+  //  TCPauseScreenViewController *pauseGame = [[TCPauseScreenViewController alloc] init];
+  //  [pauseGame setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,9 +47,7 @@
 -(IBAction)pausePressed:(id)sender
 {
     
-    TCPauseScreenViewController *pauseGame = [[TCPauseScreenViewController alloc]
-                                               initWithNibName:@"TCPauseScreenViewController"
-                                               bundle:[NSBundle mainBundle]];
+    TCPauseScreenViewController *pauseGame = [[TCPauseScreenViewController alloc]init];
     [pauseGame setDelegate:self];
     
     [self.navigationController pushViewController:pauseGame animated:YES];
