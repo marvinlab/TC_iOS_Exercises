@@ -17,6 +17,9 @@
 #import "TCImageViewController.h"
 
 #import "TCSegmentedViewController.h"
+#import "TCToolbarViewController.h"
+#import "TCTabBarController.h"
+#import "TCAlertViewController.h"
 
 @implementation TCAppDelegate
 
@@ -25,7 +28,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    TCSegmentedViewController *cur = [[TCSegmentedViewController alloc]init];
+    TCAlertViewController *cur = [[TCAlertViewController alloc]init];
     
    // TCUIElementsMainController *elementsList = [[TCUIElementsMainController alloc]init];
    // UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:elementsList];
