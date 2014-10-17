@@ -49,6 +49,11 @@
 		FA7916C119F0B89B003E2917 /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7916C019F0B89B003E2917 /* iphone.jpg */; };
 		FA7916C519F0C1EA003E2917 /* TCActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916C319F0C1EA003E2917 /* TCActionSheetViewController.m */; };
 		FA7916C619F0C1EA003E2917 /* TCActionSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916C419F0C1EA003E2917 /* TCActionSheetViewController.xib */; };
+		FA7916D519F0ECC1003E2917 /* TCPauseScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916D319F0ECC1003E2917 /* TCPauseScreenViewController.m */; };
+		FA7916D619F0ECC1003E2917 /* TCPauseScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916D419F0ECC1003E2917 /* TCPauseScreenViewController.xib */; };
+		FA7916DA19F0EDFB003E2917 /* TCGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916D819F0EDFB003E2917 /* TCGameViewController.m */; };
+		FA7916DB19F0EDFB003E2917 /* TCGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916D919F0EDFB003E2917 /* TCGameViewController.xib */; };
+		FA7916E319F114A0003E2917 /* TCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916E219F114A0003E2917 /* TCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +128,14 @@
 		FA7916C219F0C1EA003E2917 /* TCActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCActionSheetViewController.h; sourceTree = "<group>"; };
 		FA7916C319F0C1EA003E2917 /* TCActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCActionSheetViewController.m; sourceTree = "<group>"; };
 		FA7916C419F0C1EA003E2917 /* TCActionSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCActionSheetViewController.xib; sourceTree = "<group>"; };
+		FA7916D219F0ECC1003E2917 /* TCPauseScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPauseScreenViewController.h; sourceTree = "<group>"; };
+		FA7916D319F0ECC1003E2917 /* TCPauseScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPauseScreenViewController.m; sourceTree = "<group>"; };
+		FA7916D419F0ECC1003E2917 /* TCPauseScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCPauseScreenViewController.xib; sourceTree = "<group>"; };
+		FA7916D719F0EDFB003E2917 /* TCGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCGameViewController.h; sourceTree = "<group>"; };
+		FA7916D819F0EDFB003E2917 /* TCGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCGameViewController.m; sourceTree = "<group>"; };
+		FA7916D919F0EDFB003E2917 /* TCGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCGameViewController.xib; sourceTree = "<group>"; };
+		FA7916E119F114A0003E2917 /* TCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTableViewController.h; sourceTree = "<group>"; };
+		FA7916E219F114A0003E2917 /* TCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +199,8 @@
 				FA3F93A619EF803B002A7507 /* TCAppDelegate.m */,
 				FA5475AA19EF951900458592 /* TCUIElementsMainController.h */,
 				FA5475AB19EF951900458592 /* TCUIElementsMainController.m */,
+				FA7916E119F114A0003E2917 /* TCTableViewController.h */,
+				FA7916E219F114A0003E2917 /* TCTableViewController.m */,
 				FA5475B219EF97A900458592 /* TCButtonViewController.h */,
 				FA5475B319EF97A900458592 /* TCButtonViewController.m */,
 				FA5475B419EF97A900458592 /* TCButtonViewController.xib */,
@@ -209,18 +224,23 @@
 				FA79169619F0AAB8003E2917 /* TCToolbarViewController.xib */,
 				FA7916B319F0B195003E2917 /* TCTabBarController.h */,
 				FA7916B419F0B195003E2917 /* TCTabBarController.m */,
+				FA7916AA19F0B0C8003E2917 /* ForTheTCTabViewController */,
 				FA7916B519F0B195003E2917 /* TCTabBarController.xib */,
 				FA7916C219F0C1EA003E2917 /* TCActionSheetViewController.h */,
 				FA7916C319F0C1EA003E2917 /* TCActionSheetViewController.m */,
 				FA7916C419F0C1EA003E2917 /* TCActionSheetViewController.xib */,
-				FA7916AA19F0B0C8003E2917 /* ForTheTCTabViewController */,
 				FA7916B819F0B561003E2917 /* TCAlertViewController.h */,
 				FA7916B919F0B561003E2917 /* TCAlertViewController.m */,
 				FA7916BA19F0B561003E2917 /* TCAlertViewController.xib */,
-				FA7916BE19F0B831003E2917 /* flame.png */,
-				FA7916C019F0B89B003E2917 /* iphone.jpg */,
-				FA3F93A819EF803B002A7507 /* Images.xcassets */,
+				FA7916D219F0ECC1003E2917 /* TCPauseScreenViewController.h */,
+				FA7916D319F0ECC1003E2917 /* TCPauseScreenViewController.m */,
+				FA7916D419F0ECC1003E2917 /* TCPauseScreenViewController.xib */,
+				FA7916D719F0EDFB003E2917 /* TCGameViewController.h */,
+				FA7916D819F0EDFB003E2917 /* TCGameViewController.m */,
+				FA7916D919F0EDFB003E2917 /* TCGameViewController.xib */,
+				FA7916C719F0C79E003E2917 /* Resources */,
 				FA5475C919EFBC9900458592 /* hello.png */,
+				FA3F93A819EF803B002A7507 /* Images.xcassets */,
 				FA3F939D19EF803B002A7507 /* Supporting Files */,
 			);
 			path = UIElements;
@@ -270,6 +290,15 @@
 				FA7916A219F0B0B8003E2917 /* BNRQuizViewController.xib */,
 			);
 			name = ForTheTCTabViewController;
+			sourceTree = "<group>";
+		};
+		FA7916C719F0C79E003E2917 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA7916BE19F0B831003E2917 /* flame.png */,
+				FA7916C019F0B89B003E2917 /* iphone.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +385,7 @@
 				FA7916BC19F0B561003E2917 /* TCAlertViewController.xib in Resources */,
 				FA79169819F0AAB8003E2917 /* TCToolbarViewController.xib in Resources */,
 				FA5475B619EF97A900458592 /* TCButtonViewController.xib in Resources */,
+				FA7916DB19F0EDFB003E2917 /* TCGameViewController.xib in Resources */,
 				FA3F93A919EF803B002A7507 /* Images.xcassets in Resources */,
 				FA7916A819F0B0B8003E2917 /* BNRQuizViewController.xib in Resources */,
 				FA7916C619F0C1EA003E2917 /* TCActionSheetViewController.xib in Resources */,
@@ -367,6 +397,7 @@
 				FA7916C119F0B89B003E2917 /* iphone.jpg in Resources */,
 				FA5475BB19EF9CF400458592 /* TCControlViewController.xib in Resources */,
 				FA5475D419EFC0E900458592 /* TCSegmentedViewController.xib in Resources */,
+				FA7916D619F0ECC1003E2917 /* TCPauseScreenViewController.xib in Resources */,
 				FA7916A519F0B0B8003E2917 /* BNRReminderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,11 +418,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7916BB19F0B561003E2917 /* TCAlertViewController.m in Sources */,
+				FA7916DA19F0EDFB003E2917 /* TCGameViewController.m in Sources */,
 				FA5475AC19EF951900458592 /* TCUIElementsMainController.m in Sources */,
+				FA7916D519F0ECC1003E2917 /* TCPauseScreenViewController.m in Sources */,
 				FA7916C519F0C1EA003E2917 /* TCActionSheetViewController.m in Sources */,
 				FA7916A419F0B0B8003E2917 /* BNRReminderViewController.m in Sources */,
 				FA5475B519EF97A900458592 /* TCButtonViewController.m in Sources */,
 				FA5475BF19EFAD2100458592 /* TCTextViewController.m in Sources */,
+				FA7916E319F114A0003E2917 /* TCTableViewController.m in Sources */,
 				FA5475CE19EFBCB000458592 /* TCImageViewController.m in Sources */,
 				FA3F93A319EF803B002A7507 /* main.m in Sources */,
 				FA79169719F0AAB8003E2917 /* TCToolbarViewController.m in Sources */,

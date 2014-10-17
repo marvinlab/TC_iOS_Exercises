@@ -1,8 +1,8 @@
 //
 //  TCAppDelegate.h
-//  UIElements
+//  Elements
 //
-//  Created by Marvin Labrador on 10/16/14.
+//  Created by Marvin Labrador on 10/17/14.
 //  Copyright (c) 2014 Marvin Labrador. All rights reserved.
 //
 
@@ -11,6 +11,5 @@
 @interface TCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 
 @end

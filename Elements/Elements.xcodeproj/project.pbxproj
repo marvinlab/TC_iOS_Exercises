@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA79176719F11752003E2917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79176619F11752003E2917 /* Foundation.framework */; };
+		FA79176919F11752003E2917 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79176819F11752003E2917 /* CoreGraphics.framework */; };
+		FA79176B19F11752003E2917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79176A19F11752003E2917 /* UIKit.framework */; };
+		FA79177119F11752003E2917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA79176F19F11752003E2917 /* InfoPlist.strings */; };
+		FA79177319F11752003E2917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79177219F11752003E2917 /* main.m */; };
+		FA79177719F11752003E2917 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79177619F11752003E2917 /* TCAppDelegate.m */; };
+		FA79177919F11752003E2917 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA79177819F11752003E2917 /* Images.xcassets */; };
+		FA79178019F11752003E2917 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79177F19F11752003E2917 /* XCTest.framework */; };
+		FA79178119F11752003E2917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79176619F11752003E2917 /* Foundation.framework */; };
+		FA79178219F11752003E2917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA79176A19F11752003E2917 /* UIKit.framework */; };
+		FA79178A19F11752003E2917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA79178819F11752003E2917 /* InfoPlist.strings */; };
+		FA79178C19F11752003E2917 /* ElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79178B19F11752003E2917 /* ElementsTests.m */; };
+		FA79179719F11785003E2917 /* TCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79179619F11785003E2917 /* TCTableViewController.m */; };
+		FA7917C919F119B3003E2917 /* TCButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79179919F119B3003E2917 /* TCButtonViewController.m */; };
+		FA7917CA19F119B3003E2917 /* TCButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA79179A19F119B3003E2917 /* TCButtonViewController.xib */; };
+		FA7917CB19F119B3003E2917 /* TCControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79179C19F119B3003E2917 /* TCControlViewController.m */; };
+		FA7917CC19F119B3003E2917 /* TCControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA79179D19F119B3003E2917 /* TCControlViewController.xib */; };
+		FA7917CD19F119B3003E2917 /* TCTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79179F19F119B3003E2917 /* TCTextViewController.m */; };
+		FA7917CE19F119B3003E2917 /* TCTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917A019F119B3003E2917 /* TCTextViewController.xib */; };
+		FA7917CF19F119B3003E2917 /* TCPickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917A219F119B3003E2917 /* TCPickersViewController.m */; };
+		FA7917D019F119B3003E2917 /* TCPickersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917A319F119B3003E2917 /* TCPickersViewController.xib */; };
+		FA7917D119F119B3003E2917 /* TCImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917A519F119B3003E2917 /* TCImageViewController.m */; };
+		FA7917D219F119B3003E2917 /* TCImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917A619F119B3003E2917 /* TCImageViewController.xib */; };
+		FA7917D319F119B3003E2917 /* TCSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917A819F119B3003E2917 /* TCSegmentedViewController.m */; };
+		FA7917D419F119B3003E2917 /* TCSegmentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917A919F119B3003E2917 /* TCSegmentedViewController.xib */; };
+		FA7917D519F119B3003E2917 /* TCToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917AB19F119B3003E2917 /* TCToolbarViewController.m */; };
+		FA7917D619F119B3003E2917 /* TCToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917AC19F119B3003E2917 /* TCToolbarViewController.xib */; };
+		FA7917D719F119B3003E2917 /* TCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917AE19F119B3003E2917 /* TCTabBarController.m */; };
+		FA7917D819F119B3003E2917 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917B019F119B3003E2917 /* BNRHypnosisView.m */; };
+		FA7917D919F119B3003E2917 /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917B219F119B3003E2917 /* BNRReminderViewController.m */; };
+		FA7917DA19F119B3003E2917 /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917B319F119B3003E2917 /* BNRReminderViewController.xib */; };
+		FA7917DB19F119B3003E2917 /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917B519F119B3003E2917 /* BNRHypnosisViewController.m */; };
+		FA7917DC19F119B3003E2917 /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917B719F119B3003E2917 /* BNRQuizViewController.m */; };
+		FA7917DD19F119B3003E2917 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917B819F119B3003E2917 /* BNRQuizViewController.xib */; };
+		FA7917DE19F119B3003E2917 /* TCTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917B919F119B3003E2917 /* TCTabBarController.xib */; };
+		FA7917DF19F119B3003E2917 /* TCActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917BB19F119B3003E2917 /* TCActionSheetViewController.m */; };
+		FA7917E019F119B3003E2917 /* TCActionSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917BC19F119B3003E2917 /* TCActionSheetViewController.xib */; };
+		FA7917E119F119B3003E2917 /* TCAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917BE19F119B3003E2917 /* TCAlertViewController.m */; };
+		FA7917E219F119B3003E2917 /* TCAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917BF19F119B3003E2917 /* TCAlertViewController.xib */; };
+		FA7917E319F119B3003E2917 /* TCPauseScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917C119F119B3003E2917 /* TCPauseScreenViewController.m */; };
+		FA7917E419F119B3003E2917 /* TCPauseScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917C219F119B3003E2917 /* TCPauseScreenViewController.xib */; };
+		FA7917E519F119B3003E2917 /* TCGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7917C419F119B3003E2917 /* TCGameViewController.m */; };
+		FA7917E619F119B3003E2917 /* TCGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7917C519F119B3003E2917 /* TCGameViewController.xib */; };
+		FA7917E719F119B3003E2917 /* flame.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7917C619F119B3003E2917 /* flame.png */; };
+		FA7917E819F119B3003E2917 /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7917C719F119B3003E2917 /* iphone.jpg */; };
+		FA7917E919F119B3003E2917 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7917C819F119B3003E2917 /* hello.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA79178319F11752003E2917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA79175B19F11752003E2917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA79176219F11752003E2917;
+			remoteInfo = Elements;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA79176319F11752003E2917 /* Elements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elements.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA79176619F11752003E2917 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA79176819F11752003E2917 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA79176A19F11752003E2917 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA79176E19F11752003E2917 /* Elements-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Elements-Info.plist"; sourceTree = "<group>"; };
+		FA79177019F11752003E2917 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA79177219F11752003E2917 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA79177419F11752003E2917 /* Elements-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Elements-Prefix.pch"; sourceTree = "<group>"; };
+		FA79177519F11752003E2917 /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		FA79177619F11752003E2917 /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		FA79177819F11752003E2917 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA79177E19F11752003E2917 /* ElementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA79177F19F11752003E2917 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA79178719F11752003E2917 /* ElementsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElementsTests-Info.plist"; sourceTree = "<group>"; };
+		FA79178919F11752003E2917 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA79178B19F11752003E2917 /* ElementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementsTests.m; sourceTree = "<group>"; };
+		FA79179519F11785003E2917 /* TCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTableViewController.h; sourceTree = "<group>"; };
+		FA79179619F11785003E2917 /* TCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTableViewController.m; sourceTree = "<group>"; };
+		FA79179819F119B3003E2917 /* TCButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCButtonViewController.h; sourceTree = "<group>"; };
+		FA79179919F119B3003E2917 /* TCButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCButtonViewController.m; sourceTree = "<group>"; };
+		FA79179A19F119B3003E2917 /* TCButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCButtonViewController.xib; sourceTree = "<group>"; };
+		FA79179B19F119B3003E2917 /* TCControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCControlViewController.h; sourceTree = "<group>"; };
+		FA79179C19F119B3003E2917 /* TCControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCControlViewController.m; sourceTree = "<group>"; };
+		FA79179D19F119B3003E2917 /* TCControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCControlViewController.xib; sourceTree = "<group>"; };
+		FA79179E19F119B3003E2917 /* TCTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTextViewController.h; sourceTree = "<group>"; };
+		FA79179F19F119B3003E2917 /* TCTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTextViewController.m; sourceTree = "<group>"; };
+		FA7917A019F119B3003E2917 /* TCTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCTextViewController.xib; sourceTree = "<group>"; };
+		FA7917A119F119B3003E2917 /* TCPickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPickersViewController.h; sourceTree = "<group>"; };
+		FA7917A219F119B3003E2917 /* TCPickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPickersViewController.m; sourceTree = "<group>"; };
+		FA7917A319F119B3003E2917 /* TCPickersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCPickersViewController.xib; sourceTree = "<group>"; };
+		FA7917A419F119B3003E2917 /* TCImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCImageViewController.h; sourceTree = "<group>"; };
+		FA7917A519F119B3003E2917 /* TCImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCImageViewController.m; sourceTree = "<group>"; };
+		FA7917A619F119B3003E2917 /* TCImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCImageViewController.xib; sourceTree = "<group>"; };
+		FA7917A719F119B3003E2917 /* TCSegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSegmentedViewController.h; sourceTree = "<group>"; };
+		FA7917A819F119B3003E2917 /* TCSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSegmentedViewController.m; sourceTree = "<group>"; };
+		FA7917A919F119B3003E2917 /* TCSegmentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCSegmentedViewController.xib; sourceTree = "<group>"; };
+		FA7917AA19F119B3003E2917 /* TCToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCToolbarViewController.h; sourceTree = "<group>"; };
+		FA7917AB19F119B3003E2917 /* TCToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCToolbarViewController.m; sourceTree = "<group>"; };
+		FA7917AC19F119B3003E2917 /* TCToolbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCToolbarViewController.xib; sourceTree = "<group>"; };
+		FA7917AD19F119B3003E2917 /* TCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBarController.h; sourceTree = "<group>"; };
+		FA7917AE19F119B3003E2917 /* TCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBarController.m; sourceTree = "<group>"; };
+		FA7917AF19F119B3003E2917 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		FA7917B019F119B3003E2917 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		FA7917B119F119B3003E2917 /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		FA7917B219F119B3003E2917 /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		FA7917B319F119B3003E2917 /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
+		FA7917B419F119B3003E2917 /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisViewController.h; sourceTree = "<group>"; };
+		FA7917B519F119B3003E2917 /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
+		FA7917B619F119B3003E2917 /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		FA7917B719F119B3003E2917 /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		FA7917B819F119B3003E2917 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
+		FA7917B919F119B3003E2917 /* TCTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCTabBarController.xib; sourceTree = "<group>"; };
+		FA7917BA19F119B3003E2917 /* TCActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCActionSheetViewController.h; sourceTree = "<group>"; };
+		FA7917BB19F119B3003E2917 /* TCActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCActionSheetViewController.m; sourceTree = "<group>"; };
+		FA7917BC19F119B3003E2917 /* TCActionSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCActionSheetViewController.xib; sourceTree = "<group>"; };
+		FA7917BD19F119B3003E2917 /* TCAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAlertViewController.h; sourceTree = "<group>"; };
+		FA7917BE19F119B3003E2917 /* TCAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAlertViewController.m; sourceTree = "<group>"; };
+		FA7917BF19F119B3003E2917 /* TCAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCAlertViewController.xib; sourceTree = "<group>"; };
+		FA7917C019F119B3003E2917 /* TCPauseScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPauseScreenViewController.h; sourceTree = "<group>"; };
+		FA7917C119F119B3003E2917 /* TCPauseScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPauseScreenViewController.m; sourceTree = "<group>"; };
+		FA7917C219F119B3003E2917 /* TCPauseScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCPauseScreenViewController.xib; sourceTree = "<group>"; };
+		FA7917C319F119B3003E2917 /* TCGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCGameViewController.h; sourceTree = "<group>"; };
+		FA7917C419F119B3003E2917 /* TCGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCGameViewController.m; sourceTree = "<group>"; };
+		FA7917C519F119B3003E2917 /* TCGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCGameViewController.xib; sourceTree = "<group>"; };
+		FA7917C619F119B3003E2917 /* flame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flame.png; sourceTree = "<group>"; };
+		FA7917C719F119B3003E2917 /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.jpg; sourceTree = "<group>"; };
+		FA7917C819F119B3003E2917 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA79176019F11752003E2917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79176919F11752003E2917 /* CoreGraphics.framework in Frameworks */,
+				FA79176B19F11752003E2917 /* UIKit.framework in Frameworks */,
+				FA79176719F11752003E2917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA79177B19F11752003E2917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79178019F11752003E2917 /* XCTest.framework in Frameworks */,
+				FA79178219F11752003E2917 /* UIKit.framework in Frameworks */,
+				FA79178119F11752003E2917 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA79175A19F11752003E2917 = {
+			isa = PBXGroup;
+			children = (
+				FA79176C19F11752003E2917 /* Elements */,
+				FA79178519F11752003E2917 /* ElementsTests */,
+				FA79176519F11752003E2917 /* Frameworks */,
+				FA79176419F11752003E2917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA79176419F11752003E2917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA79176319F11752003E2917 /* Elements.app */,
+				FA79177E19F11752003E2917 /* ElementsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA79176519F11752003E2917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA79176619F11752003E2917 /* Foundation.framework */,
+				FA79176819F11752003E2917 /* CoreGraphics.framework */,
+				FA79176A19F11752003E2917 /* UIKit.framework */,
+				FA79177F19F11752003E2917 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA79176C19F11752003E2917 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				FA79177519F11752003E2917 /* TCAppDelegate.h */,
+				FA79177619F11752003E2917 /* TCAppDelegate.m */,
+				FA79179519F11785003E2917 /* TCTableViewController.h */,
+				FA79179619F11785003E2917 /* TCTableViewController.m */,
+				FA79179819F119B3003E2917 /* TCButtonViewController.h */,
+				FA79179919F119B3003E2917 /* TCButtonViewController.m */,
+				FA79179A19F119B3003E2917 /* TCButtonViewController.xib */,
+				FA79179B19F119B3003E2917 /* TCControlViewController.h */,
+				FA79179C19F119B3003E2917 /* TCControlViewController.m */,
+				FA79179D19F119B3003E2917 /* TCControlViewController.xib */,
+				FA79179E19F119B3003E2917 /* TCTextViewController.h */,
+				FA79179F19F119B3003E2917 /* TCTextViewController.m */,
+				FA7917A019F119B3003E2917 /* TCTextViewController.xib */,
+				FA7917A119F119B3003E2917 /* TCPickersViewController.h */,
+				FA7917A219F119B3003E2917 /* TCPickersViewController.m */,
+				FA7917A319F119B3003E2917 /* TCPickersViewController.xib */,
+				FA7917A419F119B3003E2917 /* TCImageViewController.h */,
+				FA7917A519F119B3003E2917 /* TCImageViewController.m */,
+				FA7917A619F119B3003E2917 /* TCImageViewController.xib */,
+				FA7917A719F119B3003E2917 /* TCSegmentedViewController.h */,
+				FA7917A819F119B3003E2917 /* TCSegmentedViewController.m */,
+				FA7917A919F119B3003E2917 /* TCSegmentedViewController.xib */,
+				FA7917AA19F119B3003E2917 /* TCToolbarViewController.h */,
+				FA7917AB19F119B3003E2917 /* TCToolbarViewController.m */,
+				FA7917AC19F119B3003E2917 /* TCToolbarViewController.xib */,
+				FA7917AD19F119B3003E2917 /* TCTabBarController.h */,
+				FA7917AE19F119B3003E2917 /* TCTabBarController.m */,
+				FA7917AF19F119B3003E2917 /* BNRHypnosisView.h */,
+				FA7917B019F119B3003E2917 /* BNRHypnosisView.m */,
+				FA7917B119F119B3003E2917 /* BNRReminderViewController.h */,
+				FA7917B219F119B3003E2917 /* BNRReminderViewController.m */,
+				FA7917B319F119B3003E2917 /* BNRReminderViewController.xib */,
+				FA7917B419F119B3003E2917 /* BNRHypnosisViewController.h */,
+				FA7917B519F119B3003E2917 /* BNRHypnosisViewController.m */,
+				FA7917B619F119B3003E2917 /* BNRQuizViewController.h */,
+				FA7917B719F119B3003E2917 /* BNRQuizViewController.m */,
+				FA7917B819F119B3003E2917 /* BNRQuizViewController.xib */,
+				FA7917B919F119B3003E2917 /* TCTabBarController.xib */,
+				FA7917BA19F119B3003E2917 /* TCActionSheetViewController.h */,
+				FA7917BB19F119B3003E2917 /* TCActionSheetViewController.m */,
+				FA7917BC19F119B3003E2917 /* TCActionSheetViewController.xib */,
+				FA7917BD19F119B3003E2917 /* TCAlertViewController.h */,
+				FA7917BE19F119B3003E2917 /* TCAlertViewController.m */,
+				FA7917BF19F119B3003E2917 /* TCAlertViewController.xib */,
+				FA7917C019F119B3003E2917 /* TCPauseScreenViewController.h */,
+				FA7917C119F119B3003E2917 /* TCPauseScreenViewController.m */,
+				FA7917C219F119B3003E2917 /* TCPauseScreenViewController.xib */,
+				FA7917C319F119B3003E2917 /* TCGameViewController.h */,
+				FA7917C419F119B3003E2917 /* TCGameViewController.m */,
+				FA7917C519F119B3003E2917 /* TCGameViewController.xib */,
+				FA7917C619F119B3003E2917 /* flame.png */,
+				FA7917C719F119B3003E2917 /* iphone.jpg */,
+				FA7917C819F119B3003E2917 /* hello.png */,
+				FA79177819F11752003E2917 /* Images.xcassets */,
+				FA79176D19F11752003E2917 /* Supporting Files */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		FA79176D19F11752003E2917 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA79176E19F11752003E2917 /* Elements-Info.plist */,
+				FA79176F19F11752003E2917 /* InfoPlist.strings */,
+				FA79177219F11752003E2917 /* main.m */,
+				FA79177419F11752003E2917 /* Elements-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA79178519F11752003E2917 /* ElementsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA79178B19F11752003E2917 /* ElementsTests.m */,
+				FA79178619F11752003E2917 /* Supporting Files */,
+			);
+			path = ElementsTests;
+			sourceTree = "<group>";
+		};
+		FA79178619F11752003E2917 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA79178719F11752003E2917 /* ElementsTests-Info.plist */,
+				FA79178819F11752003E2917 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA79176219F11752003E2917 /* Elements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA79178F19F11752003E2917 /* Build configuration list for PBXNativeTarget "Elements" */;
+			buildPhases = (
+				FA79175F19F11752003E2917 /* Sources */,
+				FA79176019F11752003E2917 /* Frameworks */,
+				FA79176119F11752003E2917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elements;
+			productName = Elements;
+			productReference = FA79176319F11752003E2917 /* Elements.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA79177D19F11752003E2917 /* ElementsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA79179219F11752003E2917 /* Build configuration list for PBXNativeTarget "ElementsTests" */;
+			buildPhases = (
+				FA79177A19F11752003E2917 /* Sources */,
+				FA79177B19F11752003E2917 /* Frameworks */,
+				FA79177C19F11752003E2917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA79178419F11752003E2917 /* PBXTargetDependency */,
+			);
+			name = ElementsTests;
+			productName = ElementsTests;
+			productReference = FA79177E19F11752003E2917 /* ElementsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA79175B19F11752003E2917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Marvin Labrador";
+				TargetAttributes = {
+					FA79177D19F11752003E2917 = {
+						TestTargetID = FA79176219F11752003E2917;
+					};
+				};
+			};
+			buildConfigurationList = FA79175E19F11752003E2917 /* Build configuration list for PBXProject "Elements" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA79175A19F11752003E2917;
+			productRefGroup = FA79176419F11752003E2917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA79176219F11752003E2917 /* Elements */,
+				FA79177D19F11752003E2917 /* ElementsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA79176119F11752003E2917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7917D419F119B3003E2917 /* TCSegmentedViewController.xib in Resources */,
+				FA7917D219F119B3003E2917 /* TCImageViewController.xib in Resources */,
+				FA7917E219F119B3003E2917 /* TCAlertViewController.xib in Resources */,
+				FA79177119F11752003E2917 /* InfoPlist.strings in Resources */,
+				FA7917CA19F119B3003E2917 /* TCButtonViewController.xib in Resources */,
+				FA79177919F11752003E2917 /* Images.xcassets in Resources */,
+				FA7917E819F119B3003E2917 /* iphone.jpg in Resources */,
+				FA7917D019F119B3003E2917 /* TCPickersViewController.xib in Resources */,
+				FA7917DE19F119B3003E2917 /* TCTabBarController.xib in Resources */,
+				FA7917DD19F119B3003E2917 /* BNRQuizViewController.xib in Resources */,
+				FA7917E719F119B3003E2917 /* flame.png in Resources */,
+				FA7917E619F119B3003E2917 /* TCGameViewController.xib in Resources */,
+				FA7917E019F119B3003E2917 /* TCActionSheetViewController.xib in Resources */,
+				FA7917E419F119B3003E2917 /* TCPauseScreenViewController.xib in Resources */,
+				FA7917CE19F119B3003E2917 /* TCTextViewController.xib in Resources */,
+				FA7917CC19F119B3003E2917 /* TCControlViewController.xib in Resources */,
+				FA7917E919F119B3003E2917 /* hello.png in Resources */,
+				FA7917D619F119B3003E2917 /* TCToolbarViewController.xib in Resources */,
+				FA7917DA19F119B3003E2917 /* BNRReminderViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA79177C19F11752003E2917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79178A19F11752003E2917 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA79175F19F11752003E2917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79177319F11752003E2917 /* main.m in Sources */,
+				FA7917E519F119B3003E2917 /* TCGameViewController.m in Sources */,
+				FA7917C919F119B3003E2917 /* TCButtonViewController.m in Sources */,
+				FA7917E319F119B3003E2917 /* TCPauseScreenViewController.m in Sources */,
+				FA7917D819F119B3003E2917 /* BNRHypnosisView.m in Sources */,
+				FA7917CD19F119B3003E2917 /* TCTextViewController.m in Sources */,
+				FA7917DB19F119B3003E2917 /* BNRHypnosisViewController.m in Sources */,
+				FA7917DF19F119B3003E2917 /* TCActionSheetViewController.m in Sources */,
+				FA7917D119F119B3003E2917 /* TCImageViewController.m in Sources */,
+				FA79179719F11785003E2917 /* TCTableViewController.m in Sources */,
+				FA7917D519F119B3003E2917 /* TCToolbarViewController.m in Sources */,
+				FA7917D319F119B3003E2917 /* TCSegmentedViewController.m in Sources */,
+				FA7917CB19F119B3003E2917 /* TCControlViewController.m in Sources */,
+				FA79177719F11752003E2917 /* TCAppDelegate.m in Sources */,
+				FA7917D719F119B3003E2917 /* TCTabBarController.m in Sources */,
+				FA7917E119F119B3003E2917 /* TCAlertViewController.m in Sources */,
+				FA7917CF19F119B3003E2917 /* TCPickersViewController.m in Sources */,
+				FA7917D919F119B3003E2917 /* BNRReminderViewController.m in Sources */,
+				FA7917DC19F119B3003E2917 /* BNRQuizViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA79177A19F11752003E2917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79178C19F11752003E2917 /* ElementsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA79178419F11752003E2917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA79176219F11752003E2917 /* Elements */;
+			targetProxy = FA79178319F11752003E2917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA79176F19F11752003E2917 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA79177019F11752003E2917 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA79178819F11752003E2917 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA79178919F11752003E2917 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA79178D19F11752003E2917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA79178E19F11752003E2917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA79179019F11752003E2917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Elements/Elements-Prefix.pch";
+				INFOPLIST_FILE = "Elements/Elements-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA79179119F11752003E2917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Elements/Elements-Prefix.pch";
+				INFOPLIST_FILE = "Elements/Elements-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA79179319F11752003E2917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Elements.app/Elements";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Elements/Elements-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ElementsTests/ElementsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA79179419F11752003E2917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Elements.app/Elements";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Elements/Elements-Prefix.pch";
+				INFOPLIST_FILE = "ElementsTests/ElementsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA79175E19F11752003E2917 /* Build configuration list for PBXProject "Elements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA79178D19F11752003E2917 /* Debug */,
+				FA79178E19F11752003E2917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA79178F19F11752003E2917 /* Build configuration list for PBXNativeTarget "Elements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA79179019F11752003E2917 /* Debug */,
+				FA79179119F11752003E2917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA79179219F11752003E2917 /* Build configuration list for PBXNativeTarget "ElementsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA79179319F11752003E2917 /* Debug */,
+				FA79179419F11752003E2917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA79175B19F11752003E2917 /* Project object */;
+}

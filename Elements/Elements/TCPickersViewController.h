@@ -1,5 +1,5 @@
 //
-//  TCAppDelegate.h
+//  TCPickersViewController.h
 //  UIElements
 //
 //  Created by Marvin Labrador on 10/16/14.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TCAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface TCPickersViewController : UIViewController
 
 @end

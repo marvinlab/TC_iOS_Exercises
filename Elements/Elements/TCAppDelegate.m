@@ -1,16 +1,13 @@
 //
 //  TCAppDelegate.m
-//  UIElements
+//  Elements
 //
-//  Created by Marvin Labrador on 10/16/14.
+//  Created by Marvin Labrador on 10/17/14.
 //  Copyright (c) 2014 Marvin Labrador. All rights reserved.
 //
 
 #import "TCAppDelegate.h"
-
-#import "TCUIElementsMainController.h"
 #import "TCTableViewController.h"
-
 
 @implementation TCAppDelegate
 
@@ -19,14 +16,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    //TCGameViewController *cur = [[TCGameViewController alloc]init];
-    
-   TCTableViewController *elementsList = [[TCTableViewController alloc]init];
-   UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:elementsList];
+    TCTableViewController *tvc = [[TCTableViewController alloc] init];
+    //UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:tvc];
     
     
-    self.window.rootViewController = nav;
-    
+    self.window.rootViewController = tvc;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
