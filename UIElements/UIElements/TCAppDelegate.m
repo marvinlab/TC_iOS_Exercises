@@ -20,6 +20,7 @@
 #import "TCToolbarViewController.h"
 #import "TCTabBarController.h"
 #import "TCAlertViewController.h"
+#import "TCActionSheetViewController.h"
 
 @implementation TCAppDelegate
 
@@ -28,7 +29,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    TCAlertViewController *cur = [[TCAlertViewController alloc]init];
+    TCActionSheetViewController *cur = [[TCActionSheetViewController alloc]init];
     
    // TCUIElementsMainController *elementsList = [[TCUIElementsMainController alloc]init];
    // UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:elementsList];

@@ -47,6 +47,8 @@
 		FA7916BC19F0B561003E2917 /* TCAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916BA19F0B561003E2917 /* TCAlertViewController.xib */; };
 		FA7916BF19F0B831003E2917 /* flame.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7916BE19F0B831003E2917 /* flame.png */; };
 		FA7916C119F0B89B003E2917 /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7916C019F0B89B003E2917 /* iphone.jpg */; };
+		FA7916C519F0C1EA003E2917 /* TCActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916C319F0C1EA003E2917 /* TCActionSheetViewController.m */; };
+		FA7916C619F0C1EA003E2917 /* TCActionSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916C419F0C1EA003E2917 /* TCActionSheetViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,9 @@
 		FA7916BA19F0B561003E2917 /* TCAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCAlertViewController.xib; sourceTree = "<group>"; };
 		FA7916BE19F0B831003E2917 /* flame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flame.png; sourceTree = "<group>"; };
 		FA7916C019F0B89B003E2917 /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.jpg; sourceTree = "<group>"; };
+		FA7916C219F0C1EA003E2917 /* TCActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCActionSheetViewController.h; sourceTree = "<group>"; };
+		FA7916C319F0C1EA003E2917 /* TCActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCActionSheetViewController.m; sourceTree = "<group>"; };
+		FA7916C419F0C1EA003E2917 /* TCActionSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCActionSheetViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +210,9 @@
 				FA7916B319F0B195003E2917 /* TCTabBarController.h */,
 				FA7916B419F0B195003E2917 /* TCTabBarController.m */,
 				FA7916B519F0B195003E2917 /* TCTabBarController.xib */,
+				FA7916C219F0C1EA003E2917 /* TCActionSheetViewController.h */,
+				FA7916C319F0C1EA003E2917 /* TCActionSheetViewController.m */,
+				FA7916C419F0C1EA003E2917 /* TCActionSheetViewController.xib */,
 				FA7916AA19F0B0C8003E2917 /* ForTheTCTabViewController */,
 				FA7916B819F0B561003E2917 /* TCAlertViewController.h */,
 				FA7916B919F0B561003E2917 /* TCAlertViewController.m */,
@@ -350,6 +358,7 @@
 				FA5475B619EF97A900458592 /* TCButtonViewController.xib in Resources */,
 				FA3F93A919EF803B002A7507 /* Images.xcassets in Resources */,
 				FA7916A819F0B0B8003E2917 /* BNRQuizViewController.xib in Resources */,
+				FA7916C619F0C1EA003E2917 /* TCActionSheetViewController.xib in Resources */,
 				FA5475CF19EFBCB000458592 /* TCImageViewController.xib in Resources */,
 				FA5475C819EFB14000458592 /* TCPickersViewController.xib in Resources */,
 				FA7916BF19F0B831003E2917 /* flame.png in Resources */,
@@ -379,6 +388,7 @@
 			files = (
 				FA7916BB19F0B561003E2917 /* TCAlertViewController.m in Sources */,
 				FA5475AC19EF951900458592 /* TCUIElementsMainController.m in Sources */,
+				FA7916C519F0C1EA003E2917 /* TCActionSheetViewController.m in Sources */,
 				FA7916A419F0B0B8003E2917 /* BNRReminderViewController.m in Sources */,
 				FA5475B519EF97A900458592 /* TCButtonViewController.m in Sources */,
 				FA5475BF19EFAD2100458592 /* TCTextViewController.m in Sources */,
