@@ -9,12 +9,9 @@
 #import "TCPickersViewController.h"
 
 @interface TCPickersViewController () <UIPickerViewDataSource, UIPickerViewDelegate>
-@property (weak, nonatomic) IBOutlet UIPickerView *picker;
-@property (weak, nonatomic) IBOutlet UILabel *chosenLabel;
+@property (nonatomic, retain) IBOutlet UIPickerView *picker;
+@property (nonatomic, retain) IBOutlet UILabel *chosenLabel;
 @property NSArray *weapons;
-
-
-
 
 @end
 

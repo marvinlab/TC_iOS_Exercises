@@ -9,8 +9,8 @@
 #import "TCImageViewController.h"
 
 @interface TCImageViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *picture;
-@property (weak, nonatomic) IBOutlet UIButton *buttonBtn;
+@property (nonatomic, retain) IBOutlet UIImageView *picture;
+@property (nonatomic, retain) IBOutlet UIButton *buttonBtn;
 
 -(IBAction)buttonPressed:(id)sender;
 
@@ -35,18 +35,11 @@
     self.title = mainTitle;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 -(void)buttonPressed:(id)sender
 {
     
     UIImage *scare = [UIImage imageNamed:@"hello"];
     self.picture.image = scare;
-    
     
 }
 

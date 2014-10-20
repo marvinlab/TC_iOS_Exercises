@@ -9,16 +9,12 @@
 #import "TCWebViewController.h"
 
 @interface TCWebViewController () <NSURLConnectionDelegate>
-@property (weak, nonatomic) IBOutlet UIWebView *cyscoWebView;
+@property (nonatomic, retain) IBOutlet UIWebView *cyscoWebView;
 
 @end
 
 @implementation TCWebViewController
-{
-    
-    
-    
-}
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -49,12 +45,6 @@
     
     blockWebView();
     
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error

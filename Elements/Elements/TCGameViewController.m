@@ -10,7 +10,7 @@
 #import "TCPauseScreenViewController.h"
 
 @interface TCGameViewController () <PauseScreenViewControllerDelegate>
-@property (weak, nonatomic) IBOutlet UIButton *pauseButton;
+@property (nonatomic, retain) IBOutlet UIButton *pauseButton;
 
 @end
 
@@ -35,11 +35,6 @@
     self.title = mainTitle;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 -(void)pauseGameDelegateMethod
 {

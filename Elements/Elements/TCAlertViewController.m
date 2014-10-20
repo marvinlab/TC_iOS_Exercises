@@ -9,9 +9,9 @@
 #import "TCAlertViewController.h"
 
 @interface TCAlertViewController () <UIAlertViewDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *phoneSafetyLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *fireImage;
-@property (weak, nonatomic) IBOutlet UIButton *extinguishButton;
+@property (nonatomic, retain) IBOutlet UILabel *phoneSafetyLabel;
+@property (nonatomic, retain) IBOutlet UIImageView *fireImage;
+@property (nonatomic, retain) IBOutlet UIButton *extinguishButton;
 
 - (IBAction)extinguishButtonPressed:(id)sender;
 
@@ -40,12 +40,6 @@
     NSString *mainTitle = @"Alert View";
     self.title = mainTitle;
     
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)extinguishButtonPressed:(id)sender

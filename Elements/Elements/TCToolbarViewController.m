@@ -9,9 +9,9 @@
 #import "TCToolbarViewController.h"
 
 @interface TCToolbarViewController ()
-@property (nonatomic, weak) IBOutlet UIToolbar *mainToolBar;
-@property (nonatomic, weak) NSArray *buttonsArray;
-@property (weak, nonatomic) IBOutlet UILabel *selectedToolLabel;
+@property (nonatomic, retain) IBOutlet UIToolbar *mainToolBar;
+@property (nonatomic, retain) NSArray *buttonsArray;
+@property (nonatomic, retain) IBOutlet UILabel *selectedToolLabel;
 
 
 
@@ -61,11 +61,6 @@
     
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (IBAction)firstButtonTapped:(id)sender
 {

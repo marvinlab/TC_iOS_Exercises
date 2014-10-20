@@ -9,8 +9,8 @@
 #import "TCActionSheetViewController.h"
 
 @interface TCActionSheetViewController () <UIActionSheetDelegate>
-@property (weak, nonatomic) IBOutlet UIButton *showButton;
-@property (weak, nonatomic) IBOutlet UILabel *labelOfChosenAction;
+@property (nonatomic, retain) IBOutlet UIButton *showButton;
+@property (nonatomic, retain) IBOutlet UILabel *labelOfChosenAction;
 
 @end
 
@@ -31,12 +31,6 @@
     // Do any additional setup after loading the view from its nib.
     NSString *mainTitle = @"Action Sheet";
     self.title = mainTitle;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)showActionSheet:(id)sender

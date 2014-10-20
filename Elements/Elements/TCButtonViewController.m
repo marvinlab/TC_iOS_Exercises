@@ -9,23 +9,16 @@
 #import "TCButtonViewController.h"
 
 @interface TCButtonViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *greetLabel;
-@property (weak, nonatomic) IBOutlet UIButton *buttonBtn;
+@property (nonatomic, retain) IBOutlet UILabel *greetLabel;
+@property (nonatomic, retain) IBOutlet UIButton *buttonBtn;
 
 
 -(IBAction)buttonIsPressed:(id)sender;
+
 @end
 
 @implementation TCButtonViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -36,12 +29,6 @@
     // Do any additional setup after loading the view from its nib.
     NSString *mainTitle = @"Button View";
     self.title = mainTitle;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

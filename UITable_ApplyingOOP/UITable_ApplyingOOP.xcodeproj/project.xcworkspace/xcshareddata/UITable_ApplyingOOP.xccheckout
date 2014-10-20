@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C32F1AFA-5A17-4712-BDCE-BAF121C43135</string>
+	<string>A0EFAF19-8ECF-4763-9288-C057CD542035</string>
 	<key>IDESourceControlProjectName</key>
 	<string>UITable_ApplyingOOP</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B743F7EF-E625-44E8-B317-4365E715B5A8</key>
-		<string>https://github.com/marvinlab/TC_iOS_Exercises</string>
+		<key>E98F3197-3929-4805-8895-92972C30723D</key>
+		<string>https://github.com/marvinlab/TC_iOS_Exercises.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>UITable_ApplyingOOP/UITable_ApplyingOOP.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B743F7EF-E625-44E8-B317-4365E715B5A8</key>
+		<key>E98F3197-3929-4805-8895-92972C30723D</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/marvinlab/TC_iOS_Exercises</string>
+	<string>https://github.com/marvinlab/TC_iOS_Exercises.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B743F7EF-E625-44E8-B317-4365E715B5A8</string>
+	<string>E98F3197-3929-4805-8895-92972C30723D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B743F7EF-E625-44E8-B317-4365E715B5A8</string>
+			<string>E98F3197-3929-4805-8895-92972C30723D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TC_iOS_Exercises</string>
 		</dict>

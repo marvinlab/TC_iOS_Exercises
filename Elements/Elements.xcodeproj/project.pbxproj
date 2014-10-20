@@ -204,66 +204,9 @@
 		FA79176C19F11752003E2917 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
-				FA79177519F11752003E2917 /* TCAppDelegate.h */,
-				FA79177619F11752003E2917 /* TCAppDelegate.m */,
-				FA79179519F11785003E2917 /* TCTableViewController.h */,
-				FA79179619F11785003E2917 /* TCTableViewController.m */,
-				FA79179819F119B3003E2917 /* TCButtonViewController.h */,
-				FA79179919F119B3003E2917 /* TCButtonViewController.m */,
-				FA79179A19F119B3003E2917 /* TCButtonViewController.xib */,
-				FA79179B19F119B3003E2917 /* TCControlViewController.h */,
-				FA79179C19F119B3003E2917 /* TCControlViewController.m */,
-				FA79179D19F119B3003E2917 /* TCControlViewController.xib */,
-				FA79179E19F119B3003E2917 /* TCTextViewController.h */,
-				FA79179F19F119B3003E2917 /* TCTextViewController.m */,
-				FA7917A019F119B3003E2917 /* TCTextViewController.xib */,
-				FA7917A119F119B3003E2917 /* TCPickersViewController.h */,
-				FA7917A219F119B3003E2917 /* TCPickersViewController.m */,
-				FA7917A319F119B3003E2917 /* TCPickersViewController.xib */,
-				FA7917A419F119B3003E2917 /* TCImageViewController.h */,
-				FA7917A519F119B3003E2917 /* TCImageViewController.m */,
-				FA7917A619F119B3003E2917 /* TCImageViewController.xib */,
-				FA7917A719F119B3003E2917 /* TCSegmentedViewController.h */,
-				FA7917A819F119B3003E2917 /* TCSegmentedViewController.m */,
-				FA7917A919F119B3003E2917 /* TCSegmentedViewController.xib */,
-				FA7917AA19F119B3003E2917 /* TCToolbarViewController.h */,
-				FA7917AB19F119B3003E2917 /* TCToolbarViewController.m */,
-				FA7917AC19F119B3003E2917 /* TCToolbarViewController.xib */,
-				FA7917AD19F119B3003E2917 /* TCTabBarController.h */,
-				FA7917AE19F119B3003E2917 /* TCTabBarController.m */,
-				FA7917B919F119B3003E2917 /* TCTabBarController.xib */,
-				FA7917AF19F119B3003E2917 /* BNRHypnosisView.h */,
-				FA7917B019F119B3003E2917 /* BNRHypnosisView.m */,
-				FA7917B119F119B3003E2917 /* BNRReminderViewController.h */,
-				FA7917B219F119B3003E2917 /* BNRReminderViewController.m */,
-				FA7917B319F119B3003E2917 /* BNRReminderViewController.xib */,
-				FA7917B419F119B3003E2917 /* BNRHypnosisViewController.h */,
-				FA7917B519F119B3003E2917 /* BNRHypnosisViewController.m */,
-				FA7917B619F119B3003E2917 /* BNRQuizViewController.h */,
-				FA7917B719F119B3003E2917 /* BNRQuizViewController.m */,
-				FA7917B819F119B3003E2917 /* BNRQuizViewController.xib */,
-				FA7917BA19F119B3003E2917 /* TCActionSheetViewController.h */,
-				FA7917BB19F119B3003E2917 /* TCActionSheetViewController.m */,
-				FA7917BC19F119B3003E2917 /* TCActionSheetViewController.xib */,
-				FA7917BD19F119B3003E2917 /* TCAlertViewController.h */,
-				FA7917BE19F119B3003E2917 /* TCAlertViewController.m */,
-				FA7917BF19F119B3003E2917 /* TCAlertViewController.xib */,
-				FA7917C019F119B3003E2917 /* TCPauseScreenViewController.h */,
-				FA7917C119F119B3003E2917 /* TCPauseScreenViewController.m */,
-				FA7917C219F119B3003E2917 /* TCPauseScreenViewController.xib */,
-				FA7917C319F119B3003E2917 /* TCGameViewController.h */,
-				FA7917C419F119B3003E2917 /* TCGameViewController.m */,
-				FA7917C519F119B3003E2917 /* TCGameViewController.xib */,
-				FA79183C19F12521003E2917 /* TCWebViewController.h */,
-				FA79183D19F12521003E2917 /* TCWebViewController.m */,
-				FA79183E19F12521003E2917 /* TCWebViewController.xib */,
-				FAEADE5C19F4D4A5007E7AED /* TCAccelerometerViewController.h */,
-				FAEADE5D19F4D4A5007E7AED /* TCAccelerometerViewController.m */,
-				FAEADE5E19F4D4A5007E7AED /* TCAccelerometerViewController.xib */,
-				FA7917C619F119B3003E2917 /* flame.png */,
-				FAEADE3319F4900F007E7AED /* lastofus.jpg */,
-				FA7917C719F119B3003E2917 /* iphone.jpg */,
-				FA7917C819F119B3003E2917 /* hello.png */,
+				FAEADE6319F4E672007E7AED /* Controllers */,
+				FAEADE6219F4E64E007E7AED /* Views */,
+				FAEADE6119F4E607007E7AED /* Resource Images */,
 				FA79177819F11752003E2917 /* Images.xcassets */,
 				FA79176D19F11752003E2917 /* Supporting Files */,
 			);
@@ -297,6 +240,87 @@
 				FA79178819F11752003E2917 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAEADE6119F4E607007E7AED /* Resource Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA7917C619F119B3003E2917 /* flame.png */,
+				FAEADE3319F4900F007E7AED /* lastofus.jpg */,
+				FA7917C719F119B3003E2917 /* iphone.jpg */,
+				FA7917C819F119B3003E2917 /* hello.png */,
+			);
+			name = "Resource Images";
+			sourceTree = "<group>";
+		};
+		FAEADE6219F4E64E007E7AED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA79179A19F119B3003E2917 /* TCButtonViewController.xib */,
+				FA79179D19F119B3003E2917 /* TCControlViewController.xib */,
+				FA7917A019F119B3003E2917 /* TCTextViewController.xib */,
+				FA7917A319F119B3003E2917 /* TCPickersViewController.xib */,
+				FA7917A619F119B3003E2917 /* TCImageViewController.xib */,
+				FA7917A919F119B3003E2917 /* TCSegmentedViewController.xib */,
+				FA7917AC19F119B3003E2917 /* TCToolbarViewController.xib */,
+				FA7917B919F119B3003E2917 /* TCTabBarController.xib */,
+				FA7917B319F119B3003E2917 /* BNRReminderViewController.xib */,
+				FA7917B819F119B3003E2917 /* BNRQuizViewController.xib */,
+				FA7917BC19F119B3003E2917 /* TCActionSheetViewController.xib */,
+				FA7917BF19F119B3003E2917 /* TCAlertViewController.xib */,
+				FA7917C219F119B3003E2917 /* TCPauseScreenViewController.xib */,
+				FA7917C519F119B3003E2917 /* TCGameViewController.xib */,
+				FA79183E19F12521003E2917 /* TCWebViewController.xib */,
+				FAEADE5E19F4D4A5007E7AED /* TCAccelerometerViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FAEADE6319F4E672007E7AED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA79177519F11752003E2917 /* TCAppDelegate.h */,
+				FA79177619F11752003E2917 /* TCAppDelegate.m */,
+				FA79179519F11785003E2917 /* TCTableViewController.h */,
+				FA79179619F11785003E2917 /* TCTableViewController.m */,
+				FA79179819F119B3003E2917 /* TCButtonViewController.h */,
+				FA79179919F119B3003E2917 /* TCButtonViewController.m */,
+				FA79179B19F119B3003E2917 /* TCControlViewController.h */,
+				FA79179C19F119B3003E2917 /* TCControlViewController.m */,
+				FA79179E19F119B3003E2917 /* TCTextViewController.h */,
+				FA79179F19F119B3003E2917 /* TCTextViewController.m */,
+				FA7917A119F119B3003E2917 /* TCPickersViewController.h */,
+				FA7917A219F119B3003E2917 /* TCPickersViewController.m */,
+				FA7917A419F119B3003E2917 /* TCImageViewController.h */,
+				FA7917A519F119B3003E2917 /* TCImageViewController.m */,
+				FA7917A719F119B3003E2917 /* TCSegmentedViewController.h */,
+				FA7917A819F119B3003E2917 /* TCSegmentedViewController.m */,
+				FA7917AA19F119B3003E2917 /* TCToolbarViewController.h */,
+				FA7917AB19F119B3003E2917 /* TCToolbarViewController.m */,
+				FA7917AD19F119B3003E2917 /* TCTabBarController.h */,
+				FA7917AE19F119B3003E2917 /* TCTabBarController.m */,
+				FA7917AF19F119B3003E2917 /* BNRHypnosisView.h */,
+				FA7917B019F119B3003E2917 /* BNRHypnosisView.m */,
+				FA7917B119F119B3003E2917 /* BNRReminderViewController.h */,
+				FA7917B219F119B3003E2917 /* BNRReminderViewController.m */,
+				FA7917B419F119B3003E2917 /* BNRHypnosisViewController.h */,
+				FA7917B519F119B3003E2917 /* BNRHypnosisViewController.m */,
+				FA7917B619F119B3003E2917 /* BNRQuizViewController.h */,
+				FA7917B719F119B3003E2917 /* BNRQuizViewController.m */,
+				FA7917BA19F119B3003E2917 /* TCActionSheetViewController.h */,
+				FA7917BB19F119B3003E2917 /* TCActionSheetViewController.m */,
+				FA7917BD19F119B3003E2917 /* TCAlertViewController.h */,
+				FA7917BE19F119B3003E2917 /* TCAlertViewController.m */,
+				FA7917C019F119B3003E2917 /* TCPauseScreenViewController.h */,
+				FA7917C119F119B3003E2917 /* TCPauseScreenViewController.m */,
+				FA7917C319F119B3003E2917 /* TCGameViewController.h */,
+				FA7917C419F119B3003E2917 /* TCGameViewController.m */,
+				FA79183C19F12521003E2917 /* TCWebViewController.h */,
+				FA79183D19F12521003E2917 /* TCWebViewController.m */,
+				FAEADE5C19F4D4A5007E7AED /* TCAccelerometerViewController.h */,
+				FAEADE5D19F4D4A5007E7AED /* TCAccelerometerViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

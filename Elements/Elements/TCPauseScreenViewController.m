@@ -9,7 +9,7 @@
 #import "TCPauseScreenViewController.h"
 
 @interface TCPauseScreenViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *buttonInPause;
+@property (nonatomic, retain) IBOutlet UIButton *buttonInPause;
 
 @end
 
@@ -34,11 +34,6 @@
     self.title = mainTitle;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (IBAction)pauseButtonMethod:(id)sender
 {

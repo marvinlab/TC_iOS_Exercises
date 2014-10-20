@@ -9,7 +9,7 @@
 #import "TCSegmentedViewController.h"
 
 @interface TCSegmentedViewController ()
-@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedView;
+@property (nonatomic, retain) IBOutlet UISegmentedControl *segmentedView;
 
 -(IBAction)segmentSelected:(id)sender;
 
@@ -36,11 +36,6 @@
     self.title = mainTitle;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 -(void)segmentSelected:(id)sender
 {

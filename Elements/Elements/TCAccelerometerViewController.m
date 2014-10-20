@@ -17,22 +17,22 @@ double currentMaxRotZ;
 
 @interface TCAccelerometerViewController ()
 
-@property (weak, nonatomic) IBOutlet UIButton *resetBtn;
-@property (weak, nonatomic) IBOutlet UILabel *acc_x;
-@property (weak, nonatomic) IBOutlet UILabel *acc_y;
-@property (weak, nonatomic) IBOutlet UILabel *acc_z;
+@property (nonatomic, retain) IBOutlet UIButton *resetBtn;
+@property (nonatomic, retain) IBOutlet UILabel *acc_x;
+@property (nonatomic, retain) IBOutlet UILabel *acc_y;
+@property (nonatomic, retain) IBOutlet UILabel *acc_z;
 
-@property (weak, nonatomic) IBOutlet UILabel *rot_x;
-@property (weak, nonatomic) IBOutlet UILabel *rot_y;
-@property (weak, nonatomic) IBOutlet UILabel *rot_z;
+@property (nonatomic, retain) IBOutlet UILabel *rot_x;
+@property (nonatomic, retain) IBOutlet UILabel *rot_y;
+@property (nonatomic, retain) IBOutlet UILabel *rot_z;
 
-@property (weak, nonatomic) IBOutlet UILabel *macc_x;
-@property (weak, nonatomic) IBOutlet UILabel *macc_y;
-@property (weak, nonatomic) IBOutlet UILabel *macc_z;
+@property (nonatomic, retain) IBOutlet UILabel *macc_x;
+@property (nonatomic, retain) IBOutlet UILabel *macc_y;
+@property (nonatomic, retain) IBOutlet UILabel *macc_z;
 
-@property (weak, nonatomic) IBOutlet UILabel *mrot_x;
-@property (weak, nonatomic) IBOutlet UILabel *mrot_y;
-@property (weak, nonatomic) IBOutlet UILabel *mrot_z;
+@property (nonatomic, retain) IBOutlet UILabel *mrot_x;
+@property (nonatomic, retain) IBOutlet UILabel *mrot_y;
+@property (nonatomic, retain) IBOutlet UILabel *mrot_z;
 
 -(IBAction)resetMaxValue:(id)sender;
 
@@ -87,11 +87,6 @@ double currentMaxRotZ;
     self.title = mainTitle;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 -(void)outputAccelertionData:(CMAcceleration)acceleration
 {

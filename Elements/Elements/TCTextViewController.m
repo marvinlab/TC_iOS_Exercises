@@ -9,9 +9,9 @@
 #import "TCTextViewController.h"
 
 @interface TCTextViewController ()
-@property (weak, nonatomic) IBOutlet UITextView *textView;
-@property (weak, nonatomic) IBOutlet UITextField *textField;
-@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+@property (nonatomic, retain) IBOutlet UITextView *textView;
+@property (nonatomic, retain) IBOutlet UITextField *textField;
+@property (nonatomic, retain) IBOutlet UILabel *textLabel;
 
 
 - (IBAction)textFieldReturns:(id)sender;
@@ -35,12 +35,6 @@
     // Do any additional setup after loading the view from its nib.
     NSString *mainTitle = @"Text View";
     self.title = mainTitle;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void) textFieldReturns:(id)sender

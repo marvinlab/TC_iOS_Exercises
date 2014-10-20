@@ -10,9 +10,9 @@
 
 @interface TCControlViewController ()
 
-@property (nonatomic,weak) IBOutlet UISwitch *switchSwitch;
-@property (weak, nonatomic) IBOutlet UISlider *valueSlide;
-@property (weak, nonatomic) IBOutlet UILabel *sliderValueLabel;
+@property (nonatomic, retain) IBOutlet UISwitch *switchSwitch;
+@property (nonatomic, retain) IBOutlet UISlider *valueSlide;
+@property (nonatomic, retain) IBOutlet UILabel *sliderValueLabel;
 
 
 -(IBAction)switchToggled:(id)sender;
@@ -36,7 +36,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-
     [self.view setBackgroundColor:[UIColor blackColor]];
     
     NSString *mainTitle = @"Control View";
@@ -45,11 +44,7 @@
     
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 - (void)switchToggled:(id)sender
 {
