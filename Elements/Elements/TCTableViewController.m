@@ -22,6 +22,7 @@
 #import "TCActionSheetViewController.h"
 
 #import "TCGameViewController.h"
+#import "TCWebViewController.h"
 
 @interface TCTableViewController ()
 
@@ -61,6 +62,7 @@
                          [TCAlertViewController description],
                          [TCActionSheetViewController description],
                          [TCGameViewController description],
+                         [TCWebViewController description],
                          nil];
         //self.tableView.delegate = self;
     }
@@ -172,7 +174,13 @@
         TCGameViewController *currentView = [[TCGameViewController alloc]init];
         [self.navigationController pushViewController:currentView animated:YES];
         
+    } else if ([currentSelected isEqualToString:@"TCWebViewController"]) {
+        
+        TCWebViewController *currentView = [[TCWebViewController alloc]init];
+        [self.navigationController pushViewController:currentView animated:YES];
+        
     }
+
 
 
     

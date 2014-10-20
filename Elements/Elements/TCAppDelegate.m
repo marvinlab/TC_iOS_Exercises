@@ -8,10 +8,6 @@
 
 #import "TCAppDelegate.h"
 #import "TCTableViewController.h"
-#import "TCWebViewController.h"
-#import "TCGameViewController.h"
-#import "TCPauseScreenViewController.h"
-
 
 @implementation TCAppDelegate
 
@@ -22,7 +18,6 @@
     
     TCTableViewController *tvc = [[TCTableViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:tvc];
-    
     
     self.window.rootViewController = nav;
     
