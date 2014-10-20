@@ -55,6 +55,7 @@
 		FA7917E919F119B3003E2917 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7917C819F119B3003E2917 /* hello.png */; };
 		FA79183F19F12521003E2917 /* TCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79183D19F12521003E2917 /* TCWebViewController.m */; };
 		FA79184019F12521003E2917 /* TCWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA79183E19F12521003E2917 /* TCWebViewController.xib */; };
+		FAEADE3419F4900F007E7AED /* lastofus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3319F4900F007E7AED /* lastofus.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +139,7 @@
 		FA79183C19F12521003E2917 /* TCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCWebViewController.h; sourceTree = "<group>"; };
 		FA79183D19F12521003E2917 /* TCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCWebViewController.m; sourceTree = "<group>"; };
 		FA79183E19F12521003E2917 /* TCWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCWebViewController.xib; sourceTree = "<group>"; };
+		FAEADE3319F4900F007E7AED /* lastofus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lastofus.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 				FA79183D19F12521003E2917 /* TCWebViewController.m */,
 				FA79183E19F12521003E2917 /* TCWebViewController.xib */,
 				FA7917C619F119B3003E2917 /* flame.png */,
+				FAEADE3319F4900F007E7AED /* lastofus.jpg */,
 				FA7917C719F119B3003E2917 /* iphone.jpg */,
 				FA7917C819F119B3003E2917 /* hello.png */,
 				FA79177819F11752003E2917 /* Images.xcassets */,
@@ -373,6 +376,7 @@
 				FA7917E819F119B3003E2917 /* iphone.jpg in Resources */,
 				FA7917D019F119B3003E2917 /* TCPickersViewController.xib in Resources */,
 				FA7917DE19F119B3003E2917 /* TCTabBarController.xib in Resources */,
+				FAEADE3419F4900F007E7AED /* lastofus.jpg in Resources */,
 				FA7917DD19F119B3003E2917 /* BNRQuizViewController.xib in Resources */,
 				FA7917E719F119B3003E2917 /* flame.png in Resources */,
 				FA7917E619F119B3003E2917 /* TCGameViewController.xib in Resources */,

@@ -21,6 +21,8 @@
 #import "TCAlertViewController.h"
 #import "TCActionSheetViewController.h"
 
+#import "TCGameViewController.h"
+
 @interface TCTableViewController ()
 
 @property (nonatomic, strong) NSArray *allViews;
@@ -58,6 +60,7 @@
                          [TCTabBarController description],
                          [TCAlertViewController description],
                          [TCActionSheetViewController description],
+                         [TCGameViewController description],
                          nil];
         //self.tableView.delegate = self;
     }
@@ -110,7 +113,7 @@
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *currentSelected = self.allViews[indexPath.row];
     
@@ -164,7 +167,13 @@
         TCActionSheetViewController *currentView = [[TCActionSheetViewController alloc]init];
         [self.navigationController pushViewController:currentView animated:YES];
         
+    } else if ([currentSelected isEqualToString:@"TCGameViewController"]) {
+        
+        TCGameViewController *currentView = [[TCGameViewController alloc]init];
+        [self.navigationController pushViewController:currentView animated:YES];
+        
     }
+
 
     
     

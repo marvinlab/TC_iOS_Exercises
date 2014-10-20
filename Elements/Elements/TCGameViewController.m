@@ -42,6 +42,13 @@
 -(void)pauseGameDelegateMethod
 {
     NSLog(@"Successfully called the Custom Delegate method!");
+    
+    UIAlertView *success = [[UIAlertView alloc]initWithTitle:@"Message"
+                                                     message:@"Successfully called delegate"
+                                                    delegate:self
+                                           cancelButtonTitle:@"OK"
+                                           otherButtonTitles:nil];
+    [success show];
 }
 
 -(IBAction)pausePressed:(id)sender

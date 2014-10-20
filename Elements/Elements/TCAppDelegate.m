@@ -21,10 +21,10 @@
     // Override point for customization after application launch.
     
     TCTableViewController *tvc = [[TCTableViewController alloc] init];
-    //UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:tvc];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:tvc];
     
     
-    self.window.rootViewController = tvc;
+    self.window.rootViewController = nav;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

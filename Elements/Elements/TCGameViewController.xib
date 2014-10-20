@@ -15,8 +15,12 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lastofus.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EBm-6e-Acn">
+                    <rect key="frame" x="-267" y="56" width="587" height="517"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWa-k1-5Y6">
-                    <rect key="frame" x="103" y="250" width="115" height="68"/>
+                    <rect key="frame" x="103" y="317" width="115" height="68"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.59684952445652173" green="0.58634848820456131" blue="0.57069340194240326" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Pause Game">
@@ -33,4 +37,7 @@
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
+    <resources>
+        <image name="lastofus.jpg" width="800" height="500"/>
+    </resources>
 </document>
