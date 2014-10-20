@@ -30,6 +30,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSString *mainTitle = @"Pause Screen";
+    self.title = mainTitle;
 }
 
 - (void)didReceiveMemoryWarning

@@ -31,6 +31,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor = [UIColor redColor];
+    
+    NSString *mainTitle = @"Segmented View";
+    self.title = mainTitle;
 }
 
 - (void)didReceiveMemoryWarning

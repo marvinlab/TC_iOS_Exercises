@@ -34,6 +34,8 @@
     self.greetLabel.text = @"You See that button down there? \nGo ahead and press it.";
     
     // Do any additional setup after loading the view from its nib.
+    NSString *mainTitle = @"Button View";
+    self.title = mainTitle;
 }
 
 - (void)didReceiveMemoryWarning

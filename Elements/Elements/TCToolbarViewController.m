@@ -56,6 +56,9 @@
     
     [self.mainToolBar setItems:self.buttonsArray];
     
+    NSString *mainTitle = @"Toolbar View";
+    self.title = mainTitle;
+    
 }
 
 - (void)didReceiveMemoryWarning

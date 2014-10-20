@@ -33,6 +33,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSString *mainTitle = @"Text View";
+    self.title = mainTitle;
 }
 
 - (void)didReceiveMemoryWarning

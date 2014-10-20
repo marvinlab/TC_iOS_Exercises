@@ -37,6 +37,9 @@
     
     self.fireImage.image = fire;
     
+    NSString *mainTitle = @"Alert View";
+    self.title = mainTitle;
+    
 }
 
 - (void)didReceiveMemoryWarning

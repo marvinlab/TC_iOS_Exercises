@@ -31,6 +31,8 @@
     // Do any additional setup after loading the view from its nib.
   //  TCPauseScreenViewController *pauseGame = [[TCPauseScreenViewController alloc] init];
   //  [pauseGame setDelegate:self];
+    NSString *mainTitle = @"Game View";
+    self.title = mainTitle;
 }
 
 - (void)didReceiveMemoryWarning

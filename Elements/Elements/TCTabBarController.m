@@ -36,6 +36,8 @@
     BNRReminderViewController *rvc = [[BNRReminderViewController alloc]init];
     
     self.viewControllers = @[hvc,qvc,rvc];
+    NSString *mainTitle = @"Tab Bar View";
+    self.title = mainTitle;
     
 }
 

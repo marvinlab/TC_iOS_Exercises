@@ -56,6 +56,8 @@
 		FA79183F19F12521003E2917 /* TCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79183D19F12521003E2917 /* TCWebViewController.m */; };
 		FA79184019F12521003E2917 /* TCWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA79183E19F12521003E2917 /* TCWebViewController.xib */; };
 		FAEADE3419F4900F007E7AED /* lastofus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3319F4900F007E7AED /* lastofus.jpg */; };
+		FAEADE5F19F4D4A5007E7AED /* TCAccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEADE5D19F4D4A5007E7AED /* TCAccelerometerViewController.m */; };
+		FAEADE6019F4D4A5007E7AED /* TCAccelerometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE5E19F4D4A5007E7AED /* TCAccelerometerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +142,9 @@
 		FA79183D19F12521003E2917 /* TCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCWebViewController.m; sourceTree = "<group>"; };
 		FA79183E19F12521003E2917 /* TCWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCWebViewController.xib; sourceTree = "<group>"; };
 		FAEADE3319F4900F007E7AED /* lastofus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lastofus.jpg; sourceTree = "<group>"; };
+		FAEADE5C19F4D4A5007E7AED /* TCAccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAccelerometerViewController.h; sourceTree = "<group>"; };
+		FAEADE5D19F4D4A5007E7AED /* TCAccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAccelerometerViewController.m; sourceTree = "<group>"; };
+		FAEADE5E19F4D4A5007E7AED /* TCAccelerometerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCAccelerometerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +231,7 @@
 				FA7917AC19F119B3003E2917 /* TCToolbarViewController.xib */,
 				FA7917AD19F119B3003E2917 /* TCTabBarController.h */,
 				FA7917AE19F119B3003E2917 /* TCTabBarController.m */,
+				FA7917B919F119B3003E2917 /* TCTabBarController.xib */,
 				FA7917AF19F119B3003E2917 /* BNRHypnosisView.h */,
 				FA7917B019F119B3003E2917 /* BNRHypnosisView.m */,
 				FA7917B119F119B3003E2917 /* BNRReminderViewController.h */,
@@ -236,7 +242,6 @@
 				FA7917B619F119B3003E2917 /* BNRQuizViewController.h */,
 				FA7917B719F119B3003E2917 /* BNRQuizViewController.m */,
 				FA7917B819F119B3003E2917 /* BNRQuizViewController.xib */,
-				FA7917B919F119B3003E2917 /* TCTabBarController.xib */,
 				FA7917BA19F119B3003E2917 /* TCActionSheetViewController.h */,
 				FA7917BB19F119B3003E2917 /* TCActionSheetViewController.m */,
 				FA7917BC19F119B3003E2917 /* TCActionSheetViewController.xib */,
@@ -252,6 +257,9 @@
 				FA79183C19F12521003E2917 /* TCWebViewController.h */,
 				FA79183D19F12521003E2917 /* TCWebViewController.m */,
 				FA79183E19F12521003E2917 /* TCWebViewController.xib */,
+				FAEADE5C19F4D4A5007E7AED /* TCAccelerometerViewController.h */,
+				FAEADE5D19F4D4A5007E7AED /* TCAccelerometerViewController.m */,
+				FAEADE5E19F4D4A5007E7AED /* TCAccelerometerViewController.xib */,
 				FA7917C619F119B3003E2917 /* flame.png */,
 				FAEADE3319F4900F007E7AED /* lastofus.jpg */,
 				FA7917C719F119B3003E2917 /* iphone.jpg */,
@@ -368,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7917D419F119B3003E2917 /* TCSegmentedViewController.xib in Resources */,
+				FAEADE6019F4D4A5007E7AED /* TCAccelerometerViewController.xib in Resources */,
 				FA7917D219F119B3003E2917 /* TCImageViewController.xib in Resources */,
 				FA7917E219F119B3003E2917 /* TCAlertViewController.xib in Resources */,
 				FA79177119F11752003E2917 /* InfoPlist.strings in Resources */,
@@ -410,6 +419,7 @@
 				FA7917E519F119B3003E2917 /* TCGameViewController.m in Sources */,
 				FA7917C919F119B3003E2917 /* TCButtonViewController.m in Sources */,
 				FA7917E319F119B3003E2917 /* TCPauseScreenViewController.m in Sources */,
+				FAEADE5F19F4D4A5007E7AED /* TCAccelerometerViewController.m in Sources */,
 				FA7917D819F119B3003E2917 /* BNRHypnosisView.m in Sources */,
 				FA7917CD19F119B3003E2917 /* TCTextViewController.m in Sources */,
 				FA7917DB19F119B3003E2917 /* BNRHypnosisViewController.m in Sources */,

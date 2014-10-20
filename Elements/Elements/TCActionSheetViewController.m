@@ -29,6 +29,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSString *mainTitle = @"Action Sheet";
+    self.title = mainTitle;
 }
 
 - (void)didReceiveMemoryWarning

@@ -39,6 +39,9 @@
 
     [self.view setBackgroundColor:[UIColor blackColor]];
     
+    NSString *mainTitle = @"Control View";
+    self.title = mainTitle;
+    
     
 }
 

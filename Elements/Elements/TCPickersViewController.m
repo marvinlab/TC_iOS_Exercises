@@ -38,6 +38,8 @@
     self.picker.dataSource = self;
     self.picker.delegate = self;
     
+    NSString *mainTitle = @"Picker View";
+    self.title = mainTitle;
 }
 
 - (void)didReceiveMemoryWarning

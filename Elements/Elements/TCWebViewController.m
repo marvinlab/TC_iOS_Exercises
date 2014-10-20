@@ -44,9 +44,11 @@
         [_cyscoWebView loadRequest:request];
     };
     
-    
+    NSString *mainTitle = @"Web View";
+    self.title = mainTitle;
     
     blockWebView();
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -24,10 +24,13 @@
 #import "TCGameViewController.h"
 #import "TCWebViewController.h"
 
+#import "TCAccelerometerViewController.h"
+
+NSString *const CELL_IDENTIFIER = @"UITableViewCell";
+
 @interface TCTableViewController ()
 
 @property (nonatomic, strong) NSArray *allViews;
-@property (weak, nonatomic) IBOutlet UITableView *mainTableView;
 
 
 @end
@@ -45,8 +48,7 @@
 {
    self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
-        // Custom initialization
-        //
+      
         [self.tableView setDelegate:self];
         [self.tableView setDataSource:self];
         NSLog(@"%@", self.tableView.dataSource);
@@ -63,8 +65,9 @@
                          [TCActionSheetViewController description],
                          [TCGameViewController description],
                          [TCWebViewController description],
+                         [TCAccelerometerViewController description],
                          nil];
-        //self.tableView.delegate = self;
+       
     }
     return self;
     
@@ -72,11 +75,15 @@
 
 - (void)viewDidLoad
 {
+   
+    
     [super viewDidLoad];
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CELL_IDENTIFIER];
     
+    NSString *mainTitle = @"UIElements Main List";
+    self.title = mainTitle;
     
-    //NSLog(@"%@", self.allViews);
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -101,11 +108,10 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CELL_IDENTIFIER];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CELL_IDENTIFIER];
     }
     
     cell.textLabel.text = self.allViews[indexPath.row];
@@ -179,7 +185,13 @@
         TCWebViewController *currentView = [[TCWebViewController alloc]init];
         [self.navigationController pushViewController:currentView animated:YES];
         
+    } else if ([currentSelected isEqualToString:@"TCAccelerometerViewController"]) {
+        
+        TCAccelerometerViewController *currentView = [[TCAccelerometerViewController alloc]init];
+        [self.navigationController pushViewController:currentView animated:YES];
+        
     }
+
 
 
 

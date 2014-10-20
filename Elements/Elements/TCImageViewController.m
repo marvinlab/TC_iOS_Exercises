@@ -31,6 +31,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSString *mainTitle = @"Image View";
+    self.title = mainTitle;
 }
 
 - (void)didReceiveMemoryWarning
