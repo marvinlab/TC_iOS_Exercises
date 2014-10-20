@@ -22,6 +22,19 @@
 		FA8BCD1B19EE63FA0016E86C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCD1919EE63FA0016E86C /* InfoPlist.strings */; };
 		FA8BCD1D19EE63FA0016E86C /* MVCPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8BCD1C19EE63FA0016E86C /* MVCPatternTests.m */; };
 		FA8BCD2719EE66FA0016E86C /* Exercise-Tool.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCD2619EE66FA0016E86C /* Exercise-Tool.plist */; };
+		FAEADE4119F49BC7007E7AED /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3519F49BC7007E7AED /* blue.png */; };
+		FAEADE4219F49BC7007E7AED /* colorscat.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3619F49BC7007E7AED /* colorscat.png */; };
+		FAEADE4319F49BC7007E7AED /* egg benedict.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3719F49BC7007E7AED /* egg benedict.png */; };
+		FAEADE4419F49BC7007E7AED /* foodcat.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3819F49BC7007E7AED /* foodcat.png */; };
+		FAEADE4519F49BC7007E7AED /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3919F49BC7007E7AED /* green.png */; };
+		FAEADE4619F49BC7007E7AED /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3A19F49BC7007E7AED /* hamburger.png */; };
+		FAEADE4719F49BC7007E7AED /* lettera.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3B19F49BC7007E7AED /* lettera.png */; };
+		FAEADE4819F49BC7007E7AED /* letterb.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3C19F49BC7007E7AED /* letterb.png */; };
+		FAEADE4919F49BC7007E7AED /* letterc.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3D19F49BC7007E7AED /* letterc.png */; };
+		FAEADE4A19F49BC7007E7AED /* letterscat.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3E19F49BC7007E7AED /* letterscat.png */; };
+		FAEADE4B19F49BC7007E7AED /* mushroom risotto.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3F19F49BC7007E7AED /* mushroom risotto.png */; };
+		FAEADE4C19F49BC7007E7AED /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE4019F49BC7007E7AED /* red.png */; };
+		FAEADE5219F49F18007E7AED /* TCLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEADE5119F49F18007E7AED /* TCLevelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +68,20 @@
 		FA8BCD1A19EE63FA0016E86C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA8BCD1C19EE63FA0016E86C /* MVCPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCPatternTests.m; sourceTree = "<group>"; };
 		FA8BCD2619EE66FA0016E86C /* Exercise-Tool.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Exercise-Tool.plist"; sourceTree = "<group>"; };
+		FAEADE3519F49BC7007E7AED /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		FAEADE3619F49BC7007E7AED /* colorscat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorscat.png; sourceTree = "<group>"; };
+		FAEADE3719F49BC7007E7AED /* egg benedict.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egg benedict.png"; sourceTree = "<group>"; };
+		FAEADE3819F49BC7007E7AED /* foodcat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodcat.png; sourceTree = "<group>"; };
+		FAEADE3919F49BC7007E7AED /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		FAEADE3A19F49BC7007E7AED /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
+		FAEADE3B19F49BC7007E7AED /* lettera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lettera.png; sourceTree = "<group>"; };
+		FAEADE3C19F49BC7007E7AED /* letterb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letterb.png; sourceTree = "<group>"; };
+		FAEADE3D19F49BC7007E7AED /* letterc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letterc.png; sourceTree = "<group>"; };
+		FAEADE3E19F49BC7007E7AED /* letterscat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letterscat.png; sourceTree = "<group>"; };
+		FAEADE3F19F49BC7007E7AED /* mushroom risotto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mushroom risotto.png"; sourceTree = "<group>"; };
+		FAEADE4019F49BC7007E7AED /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		FAEADE5019F49F18007E7AED /* TCLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLevelViewController.h; sourceTree = "<group>"; };
+		FAEADE5119F49F18007E7AED /* TCLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLevelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +146,8 @@
 				FA3F938219EF4D18002A7507 /* TCMainTableViewController.h */,
 				FA3F938319EF4D18002A7507 /* TCMainTableViewController.m */,
 				FA3F938419EF4D18002A7507 /* TCMainTableViewController.xib */,
+				FAEADE5019F49F18007E7AED /* TCLevelViewController.h */,
+				FAEADE5119F49F18007E7AED /* TCLevelViewController.m */,
 				FA8BCD0919EE63FA0016E86C /* Images.xcassets */,
 				FA8BCCFE19EE63FA0016E86C /* Supporting Files */,
 			);
@@ -130,6 +159,18 @@
 			children = (
 				FA8BCCFF19EE63FA0016E86C /* MVCPattern-Info.plist */,
 				FA8BCD2619EE66FA0016E86C /* Exercise-Tool.plist */,
+				FAEADE3519F49BC7007E7AED /* blue.png */,
+				FAEADE3619F49BC7007E7AED /* colorscat.png */,
+				FAEADE3719F49BC7007E7AED /* egg benedict.png */,
+				FAEADE3819F49BC7007E7AED /* foodcat.png */,
+				FAEADE3919F49BC7007E7AED /* green.png */,
+				FAEADE3A19F49BC7007E7AED /* hamburger.png */,
+				FAEADE3B19F49BC7007E7AED /* lettera.png */,
+				FAEADE3C19F49BC7007E7AED /* letterb.png */,
+				FAEADE3D19F49BC7007E7AED /* letterc.png */,
+				FAEADE3E19F49BC7007E7AED /* letterscat.png */,
+				FAEADE3F19F49BC7007E7AED /* mushroom risotto.png */,
+				FAEADE4019F49BC7007E7AED /* red.png */,
 				FA8BCD0019EE63FA0016E86C /* InfoPlist.strings */,
 				FA8BCD0319EE63FA0016E86C /* main.m */,
 				FA8BCD0519EE63FA0016E86C /* MVCPattern-Prefix.pch */,
@@ -234,10 +275,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEADE4319F49BC7007E7AED /* egg benedict.png in Resources */,
 				FA8BCD2719EE66FA0016E86C /* Exercise-Tool.plist in Resources */,
+				FAEADE4B19F49BC7007E7AED /* mushroom risotto.png in Resources */,
+				FAEADE4719F49BC7007E7AED /* lettera.png in Resources */,
+				FAEADE4119F49BC7007E7AED /* blue.png in Resources */,
+				FAEADE4C19F49BC7007E7AED /* red.png in Resources */,
+				FAEADE4519F49BC7007E7AED /* green.png in Resources */,
 				FA3F938619EF4D18002A7507 /* TCMainTableViewController.xib in Resources */,
 				FA8BCD0219EE63FA0016E86C /* InfoPlist.strings in Resources */,
+				FAEADE4219F49BC7007E7AED /* colorscat.png in Resources */,
+				FAEADE4A19F49BC7007E7AED /* letterscat.png in Resources */,
+				FAEADE4819F49BC7007E7AED /* letterb.png in Resources */,
+				FAEADE4419F49BC7007E7AED /* foodcat.png in Resources */,
 				FA8BCD0A19EE63FA0016E86C /* Images.xcassets in Resources */,
+				FAEADE4919F49BC7007E7AED /* letterc.png in Resources */,
+				FAEADE4619F49BC7007E7AED /* hamburger.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEADE5219F49F18007E7AED /* TCLevelViewController.m in Sources */,
 				FA8BCD0419EE63FA0016E86C /* main.m in Sources */,
 				FA3F938519EF4D18002A7507 /* TCMainTableViewController.m in Sources */,
 				FA8BCD0819EE63FA0016E86C /* TCAppDelegate.m in Sources */,
