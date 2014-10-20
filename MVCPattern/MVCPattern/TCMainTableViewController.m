@@ -28,18 +28,16 @@
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
     self.arrayOfCategories =[[NSMutableArray alloc]init];
     
-    NSDictionary *letterDict = [[NSDictionary alloc]initWithObjectsAndKeys:@"Letters",@"Title", nil];
-    NSDictionary *colorDict = [[NSDictionary alloc]initWithObjectsAndKeys:@"Colors",@"Title", nil];
-    NSDictionary *foodDict = [[NSDictionary alloc]initWithObjectsAndKeys:@"Foods",@"Title", nil];
-    
     self.arrayOfThumbnails = [[NSMutableArray alloc]initWithObjects:@"letterscat",@"colorscat",@"foodcat", nil];
     
     
     //Add these Dictionary of Categories as a subview of the TableView
     
-    [self.arrayOfCategories addObject:letterDict];
-    [self.arrayOfCategories addObject:colorDict];
-    [self.arrayOfCategories addObject:foodDict];
+    [self.arrayOfCategories addObject:@"Letter"];
+    [self.arrayOfCategories addObject:@"Color"];
+    [self.arrayOfCategories addObject:@"Food"];
+    
+    NSLog(@"%@",self.arrayOfCategories);
     
     self.title = @"Main Menu";
 
@@ -71,10 +69,8 @@
     NSString *cellID = @"UITableViewCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
-
-    NSDictionary *categories = [self.arrayOfCategories objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%@", [categories objectForKey:@"Title"]];
+    cell.textLabel.text = self.arrayOfCategories[indexPath.row];
     
     
     UIImage *picture = [UIImage imageNamed:self.arrayOfThumbnails[indexPath.row]];
@@ -87,7 +83,17 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     TCLevelViewController *levelView = [[TCLevelViewController alloc]init];
+    
+   // NSDictionary *nextMenuIdentifier = [self.arrayOfCategories objectAtIndex:indexPath.row];
+    
+    NSDictionary *nextMenuIdentifier = [self.arrayOfCategories objectAtIndex:indexPath.row];
+ 
+    levelView.category = [NSString stringWithFormat:@"%@", nextMenuIdentifier];
+    
     [self.navigationController pushViewController:levelView animated:YES];
+    
+    
+
 
 }
 

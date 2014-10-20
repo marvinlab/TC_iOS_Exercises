@@ -7,8 +7,20 @@
 //
 
 #import "TCLevelViewController.h"
+#import "TCItemModel.h"
+#import "TCDetailViewController.h"
 
 @interface TCLevelViewController ()
+
+@property (nonatomic, retain) NSMutableArray *arrayOfAllItems;
+@property (nonatomic, retain) NSMutableArray *arrayOfThumbs;
+@property (nonatomic, retain) NSMutableArray *arrayToView;
+@property (nonatomic, retain) NSArray *filteredArray;
+@property (nonatomic, retain) NSMutableArray *arrayOfItemModel;
+
+
+@property (nonatomic, retain) NSString *filePath;
+@property (nonatomic, retain) NSDictionary *itemsDictionary;
 
 @end
 
@@ -27,93 +39,85 @@
 {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    self.title = self.category;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
+    
+    self.filePath = [[NSBundle mainBundle]pathForResource:@"Exercise-Tool" ofType:@"plist"];
+    
+    self.arrayOfAllItems = [[NSMutableArray alloc]initWithContentsOfFile:self.filePath];
+    
+    self.filteredArray = [self.arrayOfAllItems
+                          filteredArrayUsingPredicate:[NSPredicate
+                                                       predicateWithFormat:@"itemCategory == %@",self.category]];
+    
+    self.arrayToView = [[NSMutableArray alloc]init];
+    
+    for (int i = 0; i < [self.filteredArray count]; i++) {
+        
+        self.itemsDictionary = self.filteredArray[i];
+        
+        TCItemModel *item = [[TCItemModel alloc]initWithDictionary:self.itemsDictionary];
+        
+        [self.arrayOfItemModel addObject:item];
+        
+        [self.arrayToView addObject:self.itemsDictionary];
+    }
+    
+    
+    NSLog(@"%@",self.arrayToView);
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+
     // Return the number of sections.
-    return 0;
+    return 1;
+
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
-    return 0;
+    return [self.arrayToView count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    // Configure the cell...
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    
+    
+    NSDictionary *cellIdentifier = [self.arrayToView objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = [NSString stringWithFormat:@"%@", [cellIdentifier objectForKey:@"itemTitle"]];
+    cell.imageView.image = [UIImage imageNamed:[cellIdentifier objectForKey:@"itemImage"]];
     
     return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+    
+    TCDetailViewController *details = [[TCDetailViewController alloc]init];
+    NSDictionary *detailsDictionary = self.arrayToView[indexPath.row];
+    details.chosenDictionary = detailsDictionary;
+    
+    [self.navigationController pushViewController:details animated:YES];
+    
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

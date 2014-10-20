@@ -35,6 +35,10 @@
 		FAEADE4B19F49BC7007E7AED /* mushroom risotto.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE3F19F49BC7007E7AED /* mushroom risotto.png */; };
 		FAEADE4C19F49BC7007E7AED /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE4019F49BC7007E7AED /* red.png */; };
 		FAEADE5219F49F18007E7AED /* TCLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEADE5119F49F18007E7AED /* TCLevelViewController.m */; };
+		FAEADE5319F4AA5E007E7AED /* Exercise-Tool.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA8BCD2619EE66FA0016E86C /* Exercise-Tool.plist */; };
+		FAEADE5619F4AFD7007E7AED /* TCItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEADE5519F4AFD7007E7AED /* TCItemModel.m */; };
+		FAEADE5A19F4BEE3007E7AED /* TCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEADE5819F4BEE3007E7AED /* TCDetailViewController.m */; };
+		FAEADE5B19F4BEE3007E7AED /* TCDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEADE5919F4BEE3007E7AED /* TCDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,11 @@
 		FAEADE4019F49BC7007E7AED /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		FAEADE5019F49F18007E7AED /* TCLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLevelViewController.h; sourceTree = "<group>"; };
 		FAEADE5119F49F18007E7AED /* TCLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLevelViewController.m; sourceTree = "<group>"; };
+		FAEADE5419F4AFD7007E7AED /* TCItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCItemModel.h; sourceTree = "<group>"; };
+		FAEADE5519F4AFD7007E7AED /* TCItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCItemModel.m; sourceTree = "<group>"; };
+		FAEADE5719F4BEE3007E7AED /* TCDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDetailViewController.h; sourceTree = "<group>"; };
+		FAEADE5819F4BEE3007E7AED /* TCDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDetailViewController.m; sourceTree = "<group>"; };
+		FAEADE5919F4BEE3007E7AED /* TCDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +155,13 @@
 				FA3F938219EF4D18002A7507 /* TCMainTableViewController.h */,
 				FA3F938319EF4D18002A7507 /* TCMainTableViewController.m */,
 				FA3F938419EF4D18002A7507 /* TCMainTableViewController.xib */,
+				FAEADE5419F4AFD7007E7AED /* TCItemModel.h */,
+				FAEADE5519F4AFD7007E7AED /* TCItemModel.m */,
 				FAEADE5019F49F18007E7AED /* TCLevelViewController.h */,
 				FAEADE5119F49F18007E7AED /* TCLevelViewController.m */,
+				FAEADE5719F4BEE3007E7AED /* TCDetailViewController.h */,
+				FAEADE5819F4BEE3007E7AED /* TCDetailViewController.m */,
+				FAEADE5919F4BEE3007E7AED /* TCDetailViewController.xib */,
 				FA8BCD0919EE63FA0016E86C /* Images.xcassets */,
 				FA8BCCFE19EE63FA0016E86C /* Supporting Files */,
 			);
@@ -281,6 +295,7 @@
 				FAEADE4719F49BC7007E7AED /* lettera.png in Resources */,
 				FAEADE4119F49BC7007E7AED /* blue.png in Resources */,
 				FAEADE4C19F49BC7007E7AED /* red.png in Resources */,
+				FAEADE5B19F4BEE3007E7AED /* TCDetailViewController.xib in Resources */,
 				FAEADE4519F49BC7007E7AED /* green.png in Resources */,
 				FA3F938619EF4D18002A7507 /* TCMainTableViewController.xib in Resources */,
 				FA8BCD0219EE63FA0016E86C /* InfoPlist.strings in Resources */,
@@ -298,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEADE5319F4AA5E007E7AED /* Exercise-Tool.plist in Resources */,
 				FA8BCD1B19EE63FA0016E86C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,9 +325,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEADE5A19F4BEE3007E7AED /* TCDetailViewController.m in Sources */,
 				FAEADE5219F49F18007E7AED /* TCLevelViewController.m in Sources */,
 				FA8BCD0419EE63FA0016E86C /* main.m in Sources */,
 				FA3F938519EF4D18002A7507 /* TCMainTableViewController.m in Sources */,
+				FAEADE5619F4AFD7007E7AED /* TCItemModel.m in Sources */,
 				FA8BCD0819EE63FA0016E86C /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

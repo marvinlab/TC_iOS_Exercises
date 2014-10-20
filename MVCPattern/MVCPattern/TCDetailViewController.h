@@ -1,5 +1,5 @@
 //
-//  TCLevelViewController.h
+//  TCDetailViewController.h
 //  MVCPattern
 //
 //  Created by Marvin Labrador on 10/20/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TCLevelViewController : UITableViewController
+@interface TCDetailViewController : UIViewController
 
-@property (nonatomic,retain) NSString *category;
+@property NSDictionary *chosenDictionary;
 
 @end
