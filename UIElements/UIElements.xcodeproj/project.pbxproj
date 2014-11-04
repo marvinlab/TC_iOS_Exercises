@@ -19,6 +19,41 @@
 		FA3F93B219EF803B002A7507 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3F939A19EF803B002A7507 /* UIKit.framework */; };
 		FA3F93BA19EF803B002A7507 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA3F93B819EF803B002A7507 /* InfoPlist.strings */; };
 		FA3F93BC19EF803B002A7507 /* UIElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3F93BB19EF803B002A7507 /* UIElementsTests.m */; };
+		FA5475AC19EF951900458592 /* TCUIElementsMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5475AB19EF951900458592 /* TCUIElementsMainController.m */; };
+		FA5475B519EF97A900458592 /* TCButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5475B319EF97A900458592 /* TCButtonViewController.m */; };
+		FA5475B619EF97A900458592 /* TCButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5475B419EF97A900458592 /* TCButtonViewController.xib */; };
+		FA5475BA19EF9CF400458592 /* TCControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5475B819EF9CF400458592 /* TCControlViewController.m */; };
+		FA5475BB19EF9CF400458592 /* TCControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5475B919EF9CF400458592 /* TCControlViewController.xib */; };
+		FA5475BF19EFAD2100458592 /* TCTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5475BD19EFAD2100458592 /* TCTextViewController.m */; };
+		FA5475C019EFAD2100458592 /* TCTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5475BE19EFAD2100458592 /* TCTextViewController.xib */; };
+		FA5475C719EFB14000458592 /* TCPickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5475C519EFB14000458592 /* TCPickersViewController.m */; };
+		FA5475C819EFB14000458592 /* TCPickersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5475C619EFB14000458592 /* TCPickersViewController.xib */; };
+		FA5475CA19EFBC9900458592 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5475C919EFBC9900458592 /* hello.png */; };
+		FA5475CE19EFBCB000458592 /* TCImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5475CC19EFBCB000458592 /* TCImageViewController.m */; };
+		FA5475CF19EFBCB000458592 /* TCImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5475CD19EFBCB000458592 /* TCImageViewController.xib */; };
+		FA5475D319EFC0E900458592 /* TCSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5475D119EFC0E900458592 /* TCSegmentedViewController.m */; };
+		FA5475D419EFC0E900458592 /* TCSegmentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5475D219EFC0E900458592 /* TCSegmentedViewController.xib */; };
+		FA79169719F0AAB8003E2917 /* TCToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79169519F0AAB8003E2917 /* TCToolbarViewController.m */; };
+		FA79169819F0AAB8003E2917 /* TCToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA79169619F0AAB8003E2917 /* TCToolbarViewController.xib */; };
+		FA7916A319F0B0B8003E2917 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79169A19F0B0B8003E2917 /* BNRHypnosisView.m */; };
+		FA7916A419F0B0B8003E2917 /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79169C19F0B0B8003E2917 /* BNRReminderViewController.m */; };
+		FA7916A519F0B0B8003E2917 /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA79169D19F0B0B8003E2917 /* BNRReminderViewController.xib */; };
+		FA7916A619F0B0B8003E2917 /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA79169F19F0B0B8003E2917 /* BNRHypnosisViewController.m */; };
+		FA7916A719F0B0B8003E2917 /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916A119F0B0B8003E2917 /* BNRQuizViewController.m */; };
+		FA7916A819F0B0B8003E2917 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916A219F0B0B8003E2917 /* BNRQuizViewController.xib */; };
+		FA7916B619F0B195003E2917 /* TCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916B419F0B195003E2917 /* TCTabBarController.m */; };
+		FA7916B719F0B195003E2917 /* TCTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916B519F0B195003E2917 /* TCTabBarController.xib */; };
+		FA7916BB19F0B561003E2917 /* TCAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916B919F0B561003E2917 /* TCAlertViewController.m */; };
+		FA7916BC19F0B561003E2917 /* TCAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916BA19F0B561003E2917 /* TCAlertViewController.xib */; };
+		FA7916BF19F0B831003E2917 /* flame.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7916BE19F0B831003E2917 /* flame.png */; };
+		FA7916C119F0B89B003E2917 /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7916C019F0B89B003E2917 /* iphone.jpg */; };
+		FA7916C519F0C1EA003E2917 /* TCActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916C319F0C1EA003E2917 /* TCActionSheetViewController.m */; };
+		FA7916C619F0C1EA003E2917 /* TCActionSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916C419F0C1EA003E2917 /* TCActionSheetViewController.xib */; };
+		FA7916D519F0ECC1003E2917 /* TCPauseScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916D319F0ECC1003E2917 /* TCPauseScreenViewController.m */; };
+		FA7916D619F0ECC1003E2917 /* TCPauseScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916D419F0ECC1003E2917 /* TCPauseScreenViewController.xib */; };
+		FA7916DA19F0EDFB003E2917 /* TCGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916D819F0EDFB003E2917 /* TCGameViewController.m */; };
+		FA7916DB19F0EDFB003E2917 /* TCGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7916D919F0EDFB003E2917 /* TCGameViewController.xib */; };
+		FA7916E319F114A0003E2917 /* TCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7916E219F114A0003E2917 /* TCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +83,59 @@
 		FA3F93B719EF803B002A7507 /* UIElementsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIElementsTests-Info.plist"; sourceTree = "<group>"; };
 		FA3F93B919EF803B002A7507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA3F93BB19EF803B002A7507 /* UIElementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIElementsTests.m; sourceTree = "<group>"; };
+		FA5475AA19EF951900458592 /* TCUIElementsMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCUIElementsMainController.h; path = ../TCUIElementsMainController.h; sourceTree = "<group>"; };
+		FA5475AB19EF951900458592 /* TCUIElementsMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCUIElementsMainController.m; path = ../TCUIElementsMainController.m; sourceTree = "<group>"; };
+		FA5475B219EF97A900458592 /* TCButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCButtonViewController.h; sourceTree = "<group>"; };
+		FA5475B319EF97A900458592 /* TCButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCButtonViewController.m; sourceTree = "<group>"; };
+		FA5475B419EF97A900458592 /* TCButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCButtonViewController.xib; sourceTree = "<group>"; };
+		FA5475B719EF9CF400458592 /* TCControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCControlViewController.h; sourceTree = "<group>"; };
+		FA5475B819EF9CF400458592 /* TCControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCControlViewController.m; sourceTree = "<group>"; };
+		FA5475B919EF9CF400458592 /* TCControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCControlViewController.xib; sourceTree = "<group>"; };
+		FA5475BC19EFAD2100458592 /* TCTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTextViewController.h; sourceTree = "<group>"; };
+		FA5475BD19EFAD2100458592 /* TCTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTextViewController.m; sourceTree = "<group>"; };
+		FA5475BE19EFAD2100458592 /* TCTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCTextViewController.xib; sourceTree = "<group>"; };
+		FA5475C419EFB14000458592 /* TCPickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPickersViewController.h; sourceTree = "<group>"; };
+		FA5475C519EFB14000458592 /* TCPickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPickersViewController.m; sourceTree = "<group>"; };
+		FA5475C619EFB14000458592 /* TCPickersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCPickersViewController.xib; sourceTree = "<group>"; };
+		FA5475C919EFBC9900458592 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
+		FA5475CB19EFBCB000458592 /* TCImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCImageViewController.h; sourceTree = "<group>"; };
+		FA5475CC19EFBCB000458592 /* TCImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCImageViewController.m; sourceTree = "<group>"; };
+		FA5475CD19EFBCB000458592 /* TCImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCImageViewController.xib; sourceTree = "<group>"; };
+		FA5475D019EFC0E900458592 /* TCSegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSegmentedViewController.h; sourceTree = "<group>"; };
+		FA5475D119EFC0E900458592 /* TCSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSegmentedViewController.m; sourceTree = "<group>"; };
+		FA5475D219EFC0E900458592 /* TCSegmentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCSegmentedViewController.xib; sourceTree = "<group>"; };
+		FA79169419F0AAB8003E2917 /* TCToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCToolbarViewController.h; sourceTree = "<group>"; };
+		FA79169519F0AAB8003E2917 /* TCToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCToolbarViewController.m; sourceTree = "<group>"; };
+		FA79169619F0AAB8003E2917 /* TCToolbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCToolbarViewController.xib; sourceTree = "<group>"; };
+		FA79169919F0B0B8003E2917 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		FA79169A19F0B0B8003E2917 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		FA79169B19F0B0B8003E2917 /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		FA79169C19F0B0B8003E2917 /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		FA79169D19F0B0B8003E2917 /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
+		FA79169E19F0B0B8003E2917 /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisViewController.h; sourceTree = "<group>"; };
+		FA79169F19F0B0B8003E2917 /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
+		FA7916A019F0B0B8003E2917 /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		FA7916A119F0B0B8003E2917 /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		FA7916A219F0B0B8003E2917 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
+		FA7916B319F0B195003E2917 /* TCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBarController.h; sourceTree = "<group>"; };
+		FA7916B419F0B195003E2917 /* TCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBarController.m; sourceTree = "<group>"; };
+		FA7916B519F0B195003E2917 /* TCTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCTabBarController.xib; sourceTree = "<group>"; };
+		FA7916B819F0B561003E2917 /* TCAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAlertViewController.h; sourceTree = "<group>"; };
+		FA7916B919F0B561003E2917 /* TCAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAlertViewController.m; sourceTree = "<group>"; };
+		FA7916BA19F0B561003E2917 /* TCAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCAlertViewController.xib; sourceTree = "<group>"; };
+		FA7916BE19F0B831003E2917 /* flame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flame.png; sourceTree = "<group>"; };
+		FA7916C019F0B89B003E2917 /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone.jpg; sourceTree = "<group>"; };
+		FA7916C219F0C1EA003E2917 /* TCActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCActionSheetViewController.h; sourceTree = "<group>"; };
+		FA7916C319F0C1EA003E2917 /* TCActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCActionSheetViewController.m; sourceTree = "<group>"; };
+		FA7916C419F0C1EA003E2917 /* TCActionSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCActionSheetViewController.xib; sourceTree = "<group>"; };
+		FA7916D219F0ECC1003E2917 /* TCPauseScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPauseScreenViewController.h; sourceTree = "<group>"; };
+		FA7916D319F0ECC1003E2917 /* TCPauseScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPauseScreenViewController.m; sourceTree = "<group>"; };
+		FA7916D419F0ECC1003E2917 /* TCPauseScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCPauseScreenViewController.xib; sourceTree = "<group>"; };
+		FA7916D719F0EDFB003E2917 /* TCGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCGameViewController.h; sourceTree = "<group>"; };
+		FA7916D819F0EDFB003E2917 /* TCGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCGameViewController.m; sourceTree = "<group>"; };
+		FA7916D919F0EDFB003E2917 /* TCGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCGameViewController.xib; sourceTree = "<group>"; };
+		FA7916E119F114A0003E2917 /* TCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTableViewController.h; sourceTree = "<group>"; };
+		FA7916E219F114A0003E2917 /* TCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +197,49 @@
 			children = (
 				FA3F93A519EF803B002A7507 /* TCAppDelegate.h */,
 				FA3F93A619EF803B002A7507 /* TCAppDelegate.m */,
+				FA5475AA19EF951900458592 /* TCUIElementsMainController.h */,
+				FA5475AB19EF951900458592 /* TCUIElementsMainController.m */,
+				FA7916E119F114A0003E2917 /* TCTableViewController.h */,
+				FA7916E219F114A0003E2917 /* TCTableViewController.m */,
+				FA5475B219EF97A900458592 /* TCButtonViewController.h */,
+				FA5475B319EF97A900458592 /* TCButtonViewController.m */,
+				FA5475B419EF97A900458592 /* TCButtonViewController.xib */,
+				FA5475B719EF9CF400458592 /* TCControlViewController.h */,
+				FA5475B819EF9CF400458592 /* TCControlViewController.m */,
+				FA5475B919EF9CF400458592 /* TCControlViewController.xib */,
+				FA5475BC19EFAD2100458592 /* TCTextViewController.h */,
+				FA5475BD19EFAD2100458592 /* TCTextViewController.m */,
+				FA5475BE19EFAD2100458592 /* TCTextViewController.xib */,
+				FA5475C419EFB14000458592 /* TCPickersViewController.h */,
+				FA5475C519EFB14000458592 /* TCPickersViewController.m */,
+				FA5475C619EFB14000458592 /* TCPickersViewController.xib */,
+				FA5475CB19EFBCB000458592 /* TCImageViewController.h */,
+				FA5475CC19EFBCB000458592 /* TCImageViewController.m */,
+				FA5475CD19EFBCB000458592 /* TCImageViewController.xib */,
+				FA5475D019EFC0E900458592 /* TCSegmentedViewController.h */,
+				FA5475D119EFC0E900458592 /* TCSegmentedViewController.m */,
+				FA5475D219EFC0E900458592 /* TCSegmentedViewController.xib */,
+				FA79169419F0AAB8003E2917 /* TCToolbarViewController.h */,
+				FA79169519F0AAB8003E2917 /* TCToolbarViewController.m */,
+				FA79169619F0AAB8003E2917 /* TCToolbarViewController.xib */,
+				FA7916B319F0B195003E2917 /* TCTabBarController.h */,
+				FA7916B419F0B195003E2917 /* TCTabBarController.m */,
+				FA7916AA19F0B0C8003E2917 /* ForTheTCTabViewController */,
+				FA7916B519F0B195003E2917 /* TCTabBarController.xib */,
+				FA7916C219F0C1EA003E2917 /* TCActionSheetViewController.h */,
+				FA7916C319F0C1EA003E2917 /* TCActionSheetViewController.m */,
+				FA7916C419F0C1EA003E2917 /* TCActionSheetViewController.xib */,
+				FA7916B819F0B561003E2917 /* TCAlertViewController.h */,
+				FA7916B919F0B561003E2917 /* TCAlertViewController.m */,
+				FA7916BA19F0B561003E2917 /* TCAlertViewController.xib */,
+				FA7916D219F0ECC1003E2917 /* TCPauseScreenViewController.h */,
+				FA7916D319F0ECC1003E2917 /* TCPauseScreenViewController.m */,
+				FA7916D419F0ECC1003E2917 /* TCPauseScreenViewController.xib */,
+				FA7916D719F0EDFB003E2917 /* TCGameViewController.h */,
+				FA7916D819F0EDFB003E2917 /* TCGameViewController.m */,
+				FA7916D919F0EDFB003E2917 /* TCGameViewController.xib */,
+				FA7916C719F0C79E003E2917 /* Resources */,
+				FA5475C919EFBC9900458592 /* hello.png */,
 				FA3F93A819EF803B002A7507 /* Images.xcassets */,
 				FA3F939D19EF803B002A7507 /* Supporting Files */,
 			);
@@ -142,6 +273,32 @@
 				FA3F93B819EF803B002A7507 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA7916AA19F0B0C8003E2917 /* ForTheTCTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA79169919F0B0B8003E2917 /* BNRHypnosisView.h */,
+				FA79169A19F0B0B8003E2917 /* BNRHypnosisView.m */,
+				FA79169B19F0B0B8003E2917 /* BNRReminderViewController.h */,
+				FA79169C19F0B0B8003E2917 /* BNRReminderViewController.m */,
+				FA79169D19F0B0B8003E2917 /* BNRReminderViewController.xib */,
+				FA79169E19F0B0B8003E2917 /* BNRHypnosisViewController.h */,
+				FA79169F19F0B0B8003E2917 /* BNRHypnosisViewController.m */,
+				FA7916A019F0B0B8003E2917 /* BNRQuizViewController.h */,
+				FA7916A119F0B0B8003E2917 /* BNRQuizViewController.m */,
+				FA7916A219F0B0B8003E2917 /* BNRQuizViewController.xib */,
+			);
+			name = ForTheTCTabViewController;
+			sourceTree = "<group>";
+		};
+		FA7916C719F0C79E003E2917 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA7916BE19F0B831003E2917 /* flame.png */,
+				FA7916C019F0B89B003E2917 /* iphone.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +349,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Marvin Labrador";
 				TargetAttributes = {
+					FA3F939219EF803B002A7507 = {
+						DevelopmentTeam = 59636WNZ2S;
+					};
 					FA3F93AD19EF803B002A7507 = {
 						TestTargetID = FA3F939219EF803B002A7507;
 					};
@@ -221,7 +381,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3F93A119EF803B002A7507 /* InfoPlist.strings in Resources */,
+				FA7916B719F0B195003E2917 /* TCTabBarController.xib in Resources */,
+				FA7916BC19F0B561003E2917 /* TCAlertViewController.xib in Resources */,
+				FA79169819F0AAB8003E2917 /* TCToolbarViewController.xib in Resources */,
+				FA5475B619EF97A900458592 /* TCButtonViewController.xib in Resources */,
+				FA7916DB19F0EDFB003E2917 /* TCGameViewController.xib in Resources */,
 				FA3F93A919EF803B002A7507 /* Images.xcassets in Resources */,
+				FA7916A819F0B0B8003E2917 /* BNRQuizViewController.xib in Resources */,
+				FA7916C619F0C1EA003E2917 /* TCActionSheetViewController.xib in Resources */,
+				FA5475CF19EFBCB000458592 /* TCImageViewController.xib in Resources */,
+				FA5475C819EFB14000458592 /* TCPickersViewController.xib in Resources */,
+				FA7916BF19F0B831003E2917 /* flame.png in Resources */,
+				FA5475C019EFAD2100458592 /* TCTextViewController.xib in Resources */,
+				FA5475CA19EFBC9900458592 /* hello.png in Resources */,
+				FA7916C119F0B89B003E2917 /* iphone.jpg in Resources */,
+				FA5475BB19EF9CF400458592 /* TCControlViewController.xib in Resources */,
+				FA5475D419EFC0E900458592 /* TCSegmentedViewController.xib in Resources */,
+				FA7916D619F0ECC1003E2917 /* TCPauseScreenViewController.xib in Resources */,
+				FA7916A519F0B0B8003E2917 /* BNRReminderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +417,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7916BB19F0B561003E2917 /* TCAlertViewController.m in Sources */,
+				FA7916DA19F0EDFB003E2917 /* TCGameViewController.m in Sources */,
+				FA5475AC19EF951900458592 /* TCUIElementsMainController.m in Sources */,
+				FA7916D519F0ECC1003E2917 /* TCPauseScreenViewController.m in Sources */,
+				FA7916C519F0C1EA003E2917 /* TCActionSheetViewController.m in Sources */,
+				FA7916A419F0B0B8003E2917 /* BNRReminderViewController.m in Sources */,
+				FA5475B519EF97A900458592 /* TCButtonViewController.m in Sources */,
+				FA5475BF19EFAD2100458592 /* TCTextViewController.m in Sources */,
+				FA7916E319F114A0003E2917 /* TCTableViewController.m in Sources */,
+				FA5475CE19EFBCB000458592 /* TCImageViewController.m in Sources */,
 				FA3F93A319EF803B002A7507 /* main.m in Sources */,
+				FA79169719F0AAB8003E2917 /* TCToolbarViewController.m in Sources */,
+				FA5475D319EFC0E900458592 /* TCSegmentedViewController.m in Sources */,
+				FA7916A719F0B0B8003E2917 /* BNRQuizViewController.m in Sources */,
+				FA5475BA19EF9CF400458592 /* TCControlViewController.m in Sources */,
 				FA3F93A719EF803B002A7507 /* TCAppDelegate.m in Sources */,
+				FA7916A319F0B0B8003E2917 /* BNRHypnosisView.m in Sources */,
+				FA5475C719EFB14000458592 /* TCPickersViewController.m in Sources */,
+				FA7916A619F0B0B8003E2917 /* BNRHypnosisViewController.m in Sources */,
+				FA7916B619F0B195003E2917 /* TCTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +494,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Taro Noguchi (5299G93T6Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Taro Noguchi (5299G93T6Z)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -317,6 +513,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f7ee749e-026f-4b28-b135-baa14000df48";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -337,7 +534,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Taro Noguchi (5299G93T6Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Taro Noguchi (5299G93T6Z)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -348,6 +546,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "f7ee749e-026f-4b28-b135-baa14000df48";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -358,10 +557,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIElements/UIElements-Prefix.pch";
 				INFOPLIST_FILE = "UIElements/UIElements-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +573,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIElements/UIElements-Prefix.pch";
 				INFOPLIST_FILE = "UIElements/UIElements-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +643,7 @@
 				FA3F93C119EF803B002A7507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA3F93C219EF803B002A7507 /* Build configuration list for PBXNativeTarget "UIElementsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +652,7 @@
 				FA3F93C419EF803B002A7507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

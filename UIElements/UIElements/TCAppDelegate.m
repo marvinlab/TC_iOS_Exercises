@@ -8,12 +8,26 @@
 
 #import "TCAppDelegate.h"
 
+#import "TCUIElementsMainController.h"
+#import "TCTableViewController.h"
+
+
 @implementation TCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    //TCGameViewController *cur = [[TCGameViewController alloc]init];
+    
+   TCTableViewController *elementsList = [[TCTableViewController alloc]init];
+   UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:elementsList];
+    
+    
+    self.window.rootViewController = nav;
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
